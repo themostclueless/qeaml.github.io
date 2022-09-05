@@ -3,6 +3,7 @@ from mako.lookup import TemplateLookup
 from markdown import markdown
 from pathlib import Path
 from time import time
+from shutil import copytree
 import traceback
 
 def main(args):
@@ -40,6 +41,8 @@ def main(args):
     
     with out_path.open(mode) as f:
       f.write(doc)
+
+  copytree("static", "out/static", dirs_exist_ok=True)
 
   end = time()
   elapsed = end - start
