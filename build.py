@@ -11,7 +11,10 @@ def main(args):
   template = Template(filename="templates/main.html", lookup=TemplateLookup(directories=["."]))
 
   pages_dir = Path("pages")
-  output_dir = Path(".")
+  output_dir = Path("out")
+
+  if not output_dir.exists():
+    output_dir.mkdir()
 
   for e in pages_dir.iterdir():
     if e.is_dir() or not e.name.endswith(".md"):
