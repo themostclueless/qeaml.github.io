@@ -1,0 +1,37 @@
+:root {
+  background-color: black;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: 300;
+
+  --light-accent: #eeaaff;
+  --accent: #8020ff;
+  --dark-accent: #100420;
+}
+
+body {
+  margin: 0 auto 0 auto;
+  width: 75%;
+  background-color: var(--dark-accent);
+  padding: 1rem;
+  border-radius: 0 0 1rem 1rem;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--accent);
+}
+
+h1, h2, h3, h4, h5, strong, em {
+  color: var(--light-accent);
+}
+
+h1 {
+  /*
+  text-decoration: dotted underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: var(--accent);
+  */
+  font-weight: 500;
+}
