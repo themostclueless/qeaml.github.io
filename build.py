@@ -23,6 +23,7 @@ def main(args):
       continue
 
     doc_name = e.name.removesuffix(".md")
+    title = doc_name.title()
     out_path = output_dir.joinpath(doc_name+".html")
 
     print(f"{e} => {out_path}")
@@ -40,7 +41,8 @@ def main(args):
 
     body = markdown(body_src)
     meta = yaml.load(meta_src, Loader=yaml.Loader)
-    title = meta["title"] if "title" in meta else doc_name.title()
+    if meta is not None and "title" in meta:
+      title = meta["title"]
 
     doc = template.render(body=body, title=title)
 
