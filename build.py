@@ -4,6 +4,7 @@ from markdown import markdown
 from pathlib import Path
 from time import time
 from shutil import copytree
+import yaml
 import traceback
 
 def main(args):
@@ -26,12 +27,20 @@ def main(args):
 
     print(f"{e} => {out_path}")
 
-    src = ""
+    meta_src = ""
+    body_src = ""
     with e.open("rt") as f:
-      src = f.read()
+      for ln in f:
+        if ln.strip() == "---":
+          for ln2 in f:
+            if ln2.strip() == "---":
+              break
+            meta_src += ln2
+        body_src += ln
 
-    body = markdown(src)
-    title = doc_name.title()
+    body = markdown(body_src)
+    meta = yaml.load(meta_src, Loader=yaml.Loader)
+    title = meta["title"] if "title" in meta else doc_name.title()
 
     doc = template.render(body=body, title=title)
 
