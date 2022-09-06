@@ -9,12 +9,30 @@
   --dark-accent: #100420;
 }
 
+nav > * {
+  vertical-align: middle;
+}
+
+.logo {
+  max-height: 2rem;
+  margin: 0 1rem 0 1rem;
+}
+
 body {
-  margin: 0 auto 0 auto;
+  margin: 0 auto 1rem auto;
   width: 75%;
   background-color: var(--dark-accent);
   padding: 1rem;
   border-radius: 0 0 1rem 1rem;
+}
+
+footer {
+  text-align: center;
+  opacity: 10%;
+}
+
+footer:hover {
+  opacity: 25%;
 }
 
 a {
@@ -33,5 +51,30 @@ h1 {
   text-decoration-thickness: 1px;
   text-decoration-color: var(--accent);
   */
+  margin-top: 0;
   font-weight: 500;
+}
+
+hr {
+  border: 0;
+  background-color: var(--light-accent);
+  height: 1px;
+  margin-top: 1rem;
+}
+
+code {
+  white-space: pre;
+}
+
+table tr td, table tr th {
+  border-bottom: var(--light-accent) 1px solid;
+  border-right: var(--light-accent) 1px solid;
+}
+
+table tr:last-of-type td {
+  border-bottom: 0px;
+}
+
+table tr td:last-of-type, table tr th:last-of-type {
+  border-right: 0px;
 }
