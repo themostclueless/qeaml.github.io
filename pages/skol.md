@@ -127,7 +127,7 @@ sentence -> somebody once told ^?50!dataset1$1
 Why would you need random chance in a dataset language? I have no idea!
 
 I never got around to implementing either of these languages. I'm pretty sure
-the reason is obvious. But we can cleary draw paralles between these two
+the reason is obvious. But we can cleary draw parallels between these two
 languages and Skol.
 
 ### Exk
