@@ -18,14 +18,26 @@ want to spend the rest of my life working on it. Another reason is because I
 wanted to create a language completely free of keywords. The goal was to be
 able to name your variable, function or structure anything you'd like.
 
-While Skol does mostly achieve this goal, a problem arises with functions.
+While Skol *does* mostly achieve this goal, a problem arises with functions.
 Expressions do not exist in Skol, being replaced by calls to built-in functions.
 Due to this the general recommendation is to use PascalCase for user-defined
 functions and snake_case for built-in functions. A problem may also arise
 when defining structures, as the primitve types' names are not case-sensitive.
-This would cause confusion between a structure `B` and the boolean type.
+This would cause confusion between a structure `B` and the boolean type (which
+has multiple names: `b`, `bool` and `boolean`)
 
 ## Backstory
+
+### Major influences
+
+If you don't want to know the *entire* story of how Skol came to be and just
+want to know what was the biggest influence on its syntax the below paragraph
+is all you need to read.
+
+The biggest influences are from 3 languages I've designed long before Skol.
+When it comes to regular programming languages, influences include (but are not
+limited to) Go, C, and Rust. [Code golf][codegolf] was also an influence toward
+a more concise syntax.
 
 ### String interpolation
 
@@ -45,7 +57,7 @@ Hello $capitalise:%name
 ```
 
 Quite an odd decision, but that lead me down a rabbit hole: What if there was
-a syntax to define a function?
+a syntax to *define* a function?
 
 ```
 $?capitalise[name]
@@ -114,7 +126,7 @@ Then:
 sentence -> ^!dataset1$0 once told ^!dataset1$1
 ```
 
-But wait! There's more: Random chance!
+***But wait!*** *There's more:* **Random chance!**
 
 ```
 @ 50% of the time:
@@ -124,17 +136,17 @@ But wait! There's more: Random chance!
 sentence -> somebody once told ^?50!dataset1$1
 ```
 
-Why would you need random chance in a dataset language? I have no idea!
+Why would you need random chance in a dataset language? *I have no idea!*
 
 I never got around to implementing either of these languages. I'm pretty sure
-the reason is obvious. But we can cleary draw parallels between these two
-languages and Skol.
+the reason is obvious. But the inspiration Skol took from these concepts is
+pretty clear.
 
 ### Exk
 
 However, before I implemented Skol, I wanted to implement a language called
-*Exk*. Exk is pretty much the predecessor of Skol. Here's what a piece of Exk
-code (would) look like:
+*Exk*. Is is a direct predecessor of Skol. Here's what a piece of Exk code
+(would) look like:
 
 ```
 ?$add_and_print(a/int b/int) {
@@ -143,8 +155,7 @@ code (would) look like:
 }
 ```
 
-Skol is simply a cleaned-up version of Exk, while Exk is a more explicit verison
-of Skol.
+Personally, I'd take Skol's syntax over Exk's any day of the week.
 
 ### Rough timeline of events
 
@@ -163,3 +174,4 @@ of Skol.
 [first-commit]: https://github.com/syzkrash/skol/commit/70acb244b2ba74344e5ed1c0717b4606975e9fa0
 [github]: https://github.com/syzkrash/skol
 [docs]: https://syzkrash.github.io/skol
+[codegolf]: https://en.wikipedia.org/wiki/Code_golf
