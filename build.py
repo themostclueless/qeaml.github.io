@@ -24,6 +24,7 @@ def main(args):
 
     doc_name = e.name.removesuffix(".md")
     title = doc_name.title()
+    desc = "This page has no description."
     out_path = output_dir.joinpath(doc_name+".html")
 
     print(f"{e} => {out_path}")
@@ -43,8 +44,14 @@ def main(args):
     meta = yaml.load(meta_src, Loader=yaml.Loader)
     if meta is not None and "title" in meta:
       title = meta["title"]
+    if meta is not None and "desc" in meta:
+      desc = meta["desc"]
 
-    doc = template.render(body=body, title=title)
+    doc = template.render(
+      body=body,
+      title=title,
+      desc=desc,
+      fullURL=f"https://qeaml.github.io/{doc_name}")
 
     mode = "wt"
     if not out_path.exists():
