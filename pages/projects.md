@@ -1,5 +1,6 @@
 ---
 title: The Project List
+desc: This is an incomplete list of my projects.
 ---
 
 # Project List

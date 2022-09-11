@@ -1,3 +1,7 @@
+---
+desc: The story of the Skol programming language.
+---
+
 # Skol
 
 ## About
