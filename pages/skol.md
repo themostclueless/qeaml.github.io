@@ -153,9 +153,9 @@ However, before I implemented Skol, I wanted to implement a language called
 (would) look like:
 
 ```
-?$add_and_print(a/int b/int) {
-  ?%val = !$add(a, b)
-  !$print(!$to_str(!%val))
+?$add_and_print a int; b int {
+  ?%val = !$math::add a; b
+  !$std::println !$std::to_str !%val
 }
 ```
 
@@ -170,7 +170,9 @@ Personally, I'd take Skol's syntax over Exk's any day of the week.
 <tr>
 <td>~2020</td><td>Creation of the string interpolation language.</tr>
 <td>~Late 2020</td><td>Creation of the dataset language.</tr>
-<td>Early 2021</td><td>Finalisation of the dataset language.</tr>
+<td>April 2021</td><td>Finalisation of the dataset language.</tr>
+<td>February 2022</td><td>Creation of Exk.</tr>
+<td>May 2022</td><td>Creation of Skol.</tr>
 </tr>
 </table>
 
