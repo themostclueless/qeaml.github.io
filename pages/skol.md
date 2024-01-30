@@ -7,10 +7,11 @@ desc: The story of the Skol programming language.
 ## About
 
 Skol (for **S**yz**k**rash **O**rdinary **L**anguage) is a programming language
-I've been developing for [a pretty long time][first-commit] now. While it
+I've developed for [a pretty long time][first-commit]. While it
 doesn't have one specific purpose, it was a great learning experience to
-develop. One of the things that'll definitely catch you off-guard is it's
-syntax, which actually has a pretty long history.
+develop. I do not work on the language anymore, but if you wish to continue its
+legacy, the repository is public. One of the things that'll definitely catch you
+off-guard is it's syntax, which actually has a pretty long history.
 
 ## Quick Overview
 
@@ -175,7 +176,6 @@ Personally, I'd take Skol's syntax over Exk's any day of the week.
 <td>May 2022</td><td>Creation of Skol.</tr>
 </tr>
 </table>
-
 
 [first-commit]: https://github.com/syzkrash/skol/commit/70acb244b2ba74344e5ed1c0717b4606975e9fa0
 [github]: https://github.com/syzkrash/skol

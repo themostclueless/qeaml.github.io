@@ -1,34 +1,78 @@
 ---
-desc: Story of the nwge game development framework.
-
+desc: Story of the nwge engine.
 ---
 
 # nwge
 
-nwge (for **n**e**w** **g**ame **e**ngine, pronounced *nooj*) is a lightweight game development framework, whose main purpose is to ease the most basic steps of creating a game.
+nwge (for **n**e**w** **g**ame **e**ngine, pronounced *nooj*) is small
+game-oriented graphics-and-other-stuff engine.
 
-## Selling points
+As I develop nwge, it is becoming less of a game engine, but as a basis for more
+specialized engines to build upon. *(an engine engine if you will)*.
 
-### It is small
+I am currently working on a visual novel. And I am implementing a visual novel
+engine on top of nwge. We achieve a sort of Matryoshka effect here. The VN game
+runs on the VN engine, which in turn runs on nwge. Note that the VN engine is
+**not a fork** of nwge. The engine itself links against nwge's libraries and
+interacts with it like a regular game would. The VN engine effectively becomes a
+middleman between the game's files and the nwge engine.
 
-Fits in a single DLL providing all of the functionality within.
+## What does it do?
 
-### It is very light
+The nwge engine has 3 main purposes:
 
-nwge is based around states. Every state the game could be in is contained insids its own unique class. The engine automatically calls the methods of the state object, handling all of the failures along the way. Using classes allows us to release resources once they are no longer needed. Utilities for passing data between states are also provided.
+1. State management,
+2. data loading,
+3. rendering.
 
-### Abstractions for modern programmmers
+### State management
 
-nwge's render system is a RAII-based wrapper of OpenGL. Provides you with `VertexBuffer`s, `Texture`s, `Shader`s & `ShaderProgram`s. Notably, the engine will ensure all `ShaderProgram`s have a vertex shader and a fragment shader attatched. If not, it will attach some built-in shaders for you. Another note is that nwge uses a different coordinate system to OpenGL. In the engine `(0, 0)` is the top left of the screen. In OpenGL, it is the center of the screen.
+Nwge utilises a class-based approach to state management. Each major state your
+game can be in is a separate class derived from one common, abstract `State`
+class. As you switch between states the engine will automatically unload all the
+data previously used by the state. The state then has various methods to
+communicate to the engine what needs to be loaded. Additionally, the engine
+provides a sub-state system. Sub-states are essentially smaller states that run
+on top of one big main state. Sub-states are not allowed to load data, and as
+such all necessary data must be passed from the main state to its sub-states.
+Since the sub-states are internally stored on a stack, a sub-state can choose
+whether sub-states below it in the stack are updated or rendered. This is useful
+for a pause menu, for example: a pause menu sub-state would prevent the main
+state from being updated while the user interacts with the menu.
 
-### Engineless feel
+### Data loading
 
-nwge is *not* an actual game engine. It is more of a *game development framework*, simply doing the most basic parts for you. It also provides options to customize its behavior to your liking.
+Since nwge is not currently publically available, I cannot link to the lengthy
+data system documentation here.
 
-## But why?
+In short: the data system is based around queues, which allow the engine to only
+load data while not in the middle of game playe -- most often during state
+changes. The data system also provides access to bundle files for storing game
+data and stores for persistent game data storage (game files, settings etc.).
 
-As I was developing a game without an engine, there were some bits of code that were built to be reused. The project I was working on was a rather large one. I eventually decided to put it on the back burner while I work on something smaller to "warm up". It was at this point I decided to split the most basic elements to a reusable library, so I can use it when I return to the big project.
+### Rendering
 
-## Is it not open source?
+Nwge has a simplistic renderer. It is effectively a kind-of-sort-of-lightweight
+wrapper over plain OpenGL. It's mostly useful due to its built-in shaders and
+textures making it easy to get a couple textured rectangles on screen alongside
+some ASCII text.
 
-It will be. If I ever do release nwge, it will be after a game using it is released.
+### Other
+
+Keep in mind that nwge is just a shared library. You can use just about any
+system or 3rd-party libraries your heart desires. Nwge tries to be as flexible
+to your needs as possible.
+
+## Why does it exist?
+
+Engineless gamedev is fun *apparently...* I decided to give it a shot,
+developing a small game using SDL2. I realized pretty quickly that making the
+engine at the same time as making the game caused a lot of non-reusable code in
+the engine's part of the code. Eventually, I gave up on continuing development
+of the game and utilised what little code I could to start a *new game engine*.
+(updoot if you get the reference :3). By focusing on code reusability, I have a
+pretty powerful solution I can freely reuse between as many game projects as I
+wish! *(kind of the whole point of a game engine, no?)*. Due to it's bare-bones
+nature, it supports any kind of game you could imagine. As of right now, the
+best you'll be getting is basic 2D graphics, but if you're insane enough to
+write your own shaders and everything in between -- anything is possible.
