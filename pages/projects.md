@@ -8,5 +8,5 @@ desc: This is an incomplete list of my projects.
 Below is a list of all projects that I've started which have a page on this
 website:
 
-* [skol](/skol)
 * [nwge](/nwge)
+* [skol](/skol)
