@@ -56,7 +56,7 @@ def main(args):
     mode = "wt"
     if not out_path.exists():
       mode = "xt"
-    
+
     with out_path.open(mode) as f:
       f.write(doc)
 
