@@ -7,16 +7,6 @@ desc: Story of the nwge engine.
 nwge (for **n**e**w** **g**ame **e**ngine, pronounced *nooj*) is small
 game-oriented graphics-and-other-stuff engine.
 
-As I develop nwge, it is becoming less of a game engine, but as a basis for more
-specialized engines to build upon. *(an engine engine if you will)*.
-
-I am currently working on a visual novel. And I am implementing a visual novel
-engine on top of nwge. We achieve a sort of Matryoshka effect here. The VN game
-runs on the VN engine, which in turn runs on nwge. Note that the VN engine is
-**not a fork** of nwge. The engine itself links against nwge's libraries and
-interacts with it like a regular game would. The VN engine effectively becomes a
-middleman between the game's files and the nwge engine.
-
 ## What does it do?
 
 The nwge engine has 3 main purposes:
