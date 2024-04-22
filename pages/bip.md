@@ -76,7 +76,8 @@ emulate their behavior. This would ultimately allow for:
 Particularly, I'm thinking of implementing compatibility modes for
 MSBuild/Visual Studio solutions, CMake and GNU Make.
 
-[bip documentation]: https://qeaml.github.io/bip
+[bip documentation]:
+    https://github.com/qeaml/bip/tree/main/doc
 [nwge-template recipe]:
     https://github.com/qeaml/nwge-template/blob/main/recipe.toml
 [qcbs]: https://github.com/qeaml/bs
