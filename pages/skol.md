@@ -27,7 +27,7 @@ While Skol *does* mostly achieve this goal, a problem arises with functions.
 Expressions do not exist in Skol, being replaced by calls to built-in functions.
 Due to this the general recommendation is to use PascalCase for user-defined
 functions and snake_case for built-in functions. A problem may also arise
-when defining structures, as the primitve types' names are not case-sensitive.
+when defining structures, as the primitive types' names are not case-sensitive.
 This would cause confusion between a structure `B` and the boolean type (which
 has multiple names: `b`, `bool` and `boolean`)
 
@@ -58,17 +58,17 @@ While this seems pretty simple, the language offered more than just referring
 to predefined name. Namely, function calls:
 
 ```
-Hello $capitalise:%name
+Hello $capitalize:%name
 ```
 
 Quite an odd decision, but that lead me down a rabbit hole: What if there was
 a syntax to *define* a function?
 
 ```
-$?capitalise[name]
+$?capitalize[name]
   ...
 $
-Hello $!capitalise:%!name
+Hello $!capitalize:%!name
 ```
 
 At this point this was becoming less and less string interpolation, but just
@@ -79,7 +79,7 @@ straight up programming.
 Another language that ended up playing a big influence on Skol's syntax is a
 dataset language.
 
-Two flavors of the language existed. One for unkeyed data (array data):
+Two flavors of the language existed. One for un-keyed data (array data):
 
 ```
 somebody
@@ -153,7 +153,7 @@ However, before I implemented Skol, I wanted to implement a language called
 *Exk*. Is is a direct predecessor of Skol. Here's what a piece of Exk code
 (would) look like:
 
-```
+```exk
 ?$add_and_print a int; b int {
   ?%val = !$math::add a; b
   !$std::println !$std::to_str !%val
@@ -166,12 +166,12 @@ Personally, I'd take Skol's syntax over Exk's any day of the week.
 
 <table>
 <tr>
-<th>Timespan</th><th>Event</th>
+<th>Time span</th><th>Event</th>
 </tr>
 <tr>
 <td>~2020</td><td>Creation of the string interpolation language.</tr>
 <td>~Late 2020</td><td>Creation of the dataset language.</tr>
-<td>April 2021</td><td>Finalisation of the dataset language.</tr>
+<td>April 2021</td><td>Finalization of the dataset language.</tr>
 <td>February 2022</td><td>Creation of Exk.</tr>
 <td>May 2022</td><td>Creation of Skol.</tr>
 </tr>

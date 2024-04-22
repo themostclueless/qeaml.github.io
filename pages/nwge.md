@@ -23,7 +23,7 @@ The nwge engine has 3 main purposes:
 
 ### State management
 
-Nwge utilises a class-based approach to state management. Each major state your
+Nwge utilizes a class-based approach to state management. Each major state your
 game can be in is a separate class derived from one common, abstract `State`
 class. As you switch between states the engine will automatically unload all the
 data previously used by the state. The state then has various methods to
@@ -38,11 +38,11 @@ state from being updated while the user interacts with the menu.
 
 ### Data loading
 
-Since nwge is not currently publically available, I cannot link to the lengthy
+Since nwge is not currently publicly available, I cannot link to the lengthy
 data system documentation here.
 
 In short: the data system is based around queues, which allow the engine to only
-load data while not in the middle of game playe -- most often during state
+load data while not in the middle of game play -- most often during state
 changes. The data system also provides access to bundle files for storing game
 data and stores for persistent game data storage (game files, settings etc.).
 
@@ -65,12 +65,12 @@ Engineless gamedev is fun *apparently...* I decided to give it a shot,
 developing a small game using SDL2. I realized pretty quickly that making the
 engine at the same time as making the game caused a lot of non-reusable code in
 the engine's part of the code. Eventually, I gave up on continuing development
-of the game and utilised what little code I could to start a *new game engine*.
-(updoot if you get the reference :3). By focusing on code reusability, I have a
-pretty powerful solution I can freely reuse between as many game projects as I
-wish! *(kind of the whole point of a game engine, no?)*. Due to it's bare-bones
-nature, it supports any kind of game you could imagine. As of right now, the
-best you'll be getting is basic 2D graphics, but if you're insane enough to
-write your own shaders and everything in between -- anything is possible.
+of the game and utilized what little code I could to start a *new game engine*.
+By focusing on code reusability, I have a pretty powerful solution I can freely
+reuse between as many game projects as I wish! *(kind of the whole point of a
+game engine, no?)*. Due to it's bare-bones nature, it supports any kind of game
+you could imagine. As of right now, the best you'll be getting is basic 2D
+graphics, but if you're insane enough to write your own shaders and everything
+in between -- anything is possible.
 
 [Introduction]: https://qeaml.github.io/nwge-docs/INTRO
