@@ -1,5 +1,6 @@
 ---
-desc: Story of the nwge engine.
+desc: "Nwge is a small and minimalistic game engine written in C++. This page
+covers its design and history as well as reasoning for its creation."
 ---
 
 # nwge

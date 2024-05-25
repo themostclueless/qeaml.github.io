@@ -1,6 +1,7 @@
 ---
 title: Bip
-desc: The story and design of the bip build system.
+desc:
+    An overview and history of the design of qeaml's custom build system, bip.
 ---
 
 # Bip

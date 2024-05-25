@@ -1,6 +1,7 @@
 ---
 title: The Project List
-desc: This is an incomplete list of my projects.
+desc: "A list of qeaml's active and currently inactive projects, only ones which
+also have a page on this website."
 ---
 
 # Project List

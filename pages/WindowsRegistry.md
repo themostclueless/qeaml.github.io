@@ -1,6 +1,7 @@
 ---
 title: Windows Registry Tweaks
-desc: Registry tweaks to make Windows more usable.
+desc: "Small registry tweaks which make using Windows easier. Includes tweaks
+for Explorer, the search bar and the hardware clock for dual-booting with Linux."
 ---
 
 # Windows Registry Tweaks
