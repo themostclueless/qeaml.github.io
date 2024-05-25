@@ -150,7 +150,7 @@ pretty clear.
 ### Exk
 
 However, before I implemented Skol, I wanted to implement a language called
-*Exk*. Is is a direct predecessor of Skol. Here's what a piece of Exk code
+*Exk*. It is a direct predecessor of Skol. Here's what a piece of Exk code
 (would) look like:
 
 ```exk

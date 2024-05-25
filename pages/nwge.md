@@ -9,7 +9,7 @@ game-oriented graphics-and-other-stuff engine.
 
 Note that the [Introduction] page of the nwge docs contains more up-to-date
 information as well as plenty of other pages describing the engine's
-ins-and-outs. This page is now always kept up-to-date.
+ins-and-outs. This page is not always kept up-to-date.
 
 *Fun fact:* Nwge's birthday is April 18th, 2023. That means nwge is 1 year old!
 
@@ -38,8 +38,8 @@ state from being updated while the user interacts with the menu.
 
 ### Data loading
 
-Since nwge is not currently publicly available, I cannot link to the lengthy
-data system documentation here.
+You can view an exhaustive description of nwge's data system at the [nwge data
+system documentation][Data].
 
 In short: the data system is based around queues, which allow the engine to only
 load data while not in the middle of game play -- most often during state
@@ -74,3 +74,4 @@ graphics, but if you're insane enough to write your own shaders and everything
 in between -- anything is possible.
 
 [Introduction]: https://qeaml.github.io/nwge-docs/INTRO
+[Data]: https://qeaml.github.io/nwge-docs/DATA
