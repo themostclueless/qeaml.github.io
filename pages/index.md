@@ -19,6 +19,10 @@ can also look through my [LinkTree] for other ways to contact me. Keep in mind
 that I have next to no filter whenever tweeting, so be prepared to see some odd
 thoughts when scrolling through my profile(s).
 
+## Links
+
+- [Windows Registry Tweaks](/WindowsRegistry)
+
 [Projects]: /projects
 [Twitter]: https://twitter.com/qeamlbackup
 [LinkTree]: https://linktr.ee/qeaml
