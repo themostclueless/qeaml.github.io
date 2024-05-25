@@ -1,4 +1,5 @@
 ---
+title: Windows Registry Tweaks
 desc: Registry tweaks to make Windows more usable.
 ---
 
