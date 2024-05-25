@@ -11,3 +11,4 @@ website:
 * [nwge](/nwge)
 * [bip](/bip)
 * [skol](/skol)
+* [Shitting Bricks Simulator 2022](/sbs2022)
