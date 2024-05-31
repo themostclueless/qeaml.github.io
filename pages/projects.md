@@ -12,6 +12,7 @@ website:
 ## Active
 
 * [nwge](/nwge)
+  * [Shitting Bricks Simulator 2024](/sbs2024)
 * [bip](/bip)
 
 ## Inactive
