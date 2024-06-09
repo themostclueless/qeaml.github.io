@@ -7,103 +7,124 @@ from shutil import copytree
 from typing import Optional
 import yaml
 
-g_template = Template(filename="templates/main.html", lookup=TemplateLookup(directories=["."]))
+
+@dataclass
+class Config:
+    src: Path
+    out: Path
+    base_keywords: list[str]
+    static: Path
+    base_url: str
+
+
+g_template = Template(
+    filename="templates/main.html", lookup=TemplateLookup(directories=["."])
+)
+
 
 @dataclass
 class Page:
-  path: str
-  title: str
-  desc: str
-  keywords: list[str]
-  content: str
-  dst: Path
+    config: Config
+    path: str
+    title: str
+    desc: str
+    keywords: list[str]
+    content: str
+    dst: Path
 
-  @classmethod
-  def parse(cls, root: Path, src: Path, dst: Path) -> "Page":
-    raw_content = ""
-    raw_meta = ""
-    in_meta = False
+    @classmethod
+    def parse(cls, config: Config, src: Path, dst: Path) -> "Page":
+        raw_content = ""
+        raw_meta = ""
+        in_meta = False
 
-    with src.open("rt") as f:
-      for line in f:
-        if in_meta:
-          if line.strip() == "---":
-            in_meta = False
-            continue
-          raw_meta += line
-          continue
-        elif line.strip() == "---":
-          in_meta = True
-          continue
-        raw_content += line
+        with src.open("rt") as f:
+            for line in f:
+                if in_meta:
+                    if line.strip() == "---":
+                        in_meta = False
+                        continue
+                    raw_meta += line
+                    continue
+                elif line.strip() == "---":
+                    in_meta = True
+                    continue
+                raw_content += line
 
-    path = src.relative_to(root).with_suffix("").as_posix()
-    title_in_meta = False
-    title = src.with_suffix("").name.capitalize()
-    desc = "This page has no description."
-    keywords = []
+        path = src.relative_to(config.src).with_suffix("").as_posix()
+        title_in_meta = False
+        title = src.with_suffix("").name.capitalize()
+        desc = "This page has no description."
+        keywords = []
+        keywords.extend(config.base_keywords)
 
-    meta = yaml.load(raw_meta, Loader=yaml.Loader)
-    if meta is not None:
-      if "title" in meta:
-        title = meta["title"]
-        title_in_meta = True
-      if "desc" in meta:
-        desc = meta["desc"]
-      if "keywords" in meta:
-        keywords = meta["keywords"]
+        meta = yaml.load(raw_meta, Loader=yaml.Loader)
+        if meta is not None:
+            if "title" in meta:
+                title = meta["title"]
+                title_in_meta = True
+            if "desc" in meta:
+                desc = meta["desc"]
+            if "keywords" in meta:
+                keywords.extend(meta["keywords"])
 
-    if title_in_meta:
-      raw_content = f"# {title}\n\n{raw_content}"
+        if title_in_meta:
+            raw_content = f"# {title}\n\n{raw_content}"
 
-    return cls(path, title, desc, keywords, raw_content, dst)
+        return cls(config, path, title, desc, keywords, raw_content, dst)
 
-  def render(self):
-    self.dst.parent.mkdir(parents=True, exist_ok=True)
-    content = markdown(self.content)
-    with self.dst.open("wt") as f:
-      f.write(g_template.render(
-        body=content,
-        title=self.title,
-        desc=self.desc,
-        keywords=self.keywords,
-        fullURL=f"https://qeaml.github.io/{self.path}"
-      ))
+    def render(self):
+        self.dst.parent.mkdir(parents=True, exist_ok=True)
+        content = markdown(self.content)
+        with self.dst.open("wt") as f:
+            f.write(
+                g_template.render(
+                    body=content,
+                    title=self.title,
+                    desc=self.desc,
+                    keywords=self.keywords,
+                    fullURL=f"{self.config.base_url}/{self.path}",
+                )
+            )
+
 
 @dataclass
 class PathPair:
-  src: Path
-  dst: Path
+    src: Path
+    dst: Path
 
-def find_all_pages(out: Path, root: Path, dir: Path) -> list[PathPair]:
-  pairs = []
 
-  for src in dir.iterdir():
-    if src.is_dir():
-      pairs.extend(find_all_pages(out, root, src))
-      continue
+def find_all_pages(config: Config, dir: Path) -> list[PathPair]:
+    pairs = []
 
-    if not src.name.lower().endswith(".md"):
-      continue
+    for src in dir.iterdir():
+        if src.is_dir():
+            pairs.extend(find_all_pages(config, src))
+            continue
 
-    dst = out.joinpath(src.relative_to(root)).with_suffix(".html")
-    pairs.append(PathPair(src, dst))
+        if not src.name.lower().endswith(".md"):
+            continue
 
-  return pairs
+        dst = config.out.joinpath(src.relative_to(config.src)).with_suffix(".html")
+        pairs.append(PathPair(src, dst))
+
+    return pairs
+
 
 def main(args: list[str]) -> int:
-  out = Path("out/")
-  root = Path("pages/")
+    config = Config(
+        Path("pages"), Path("out"), [], Path("static"), "https://qeaml.github.io"
+    )
+    pairs = find_all_pages(config, config.src)
+    for pair in pairs:
+        page = Page.parse(config, pair.src, pair.dst)
+        page.render()
 
-  pairs = find_all_pages(out, root, root)
-  for pair in pairs:
-    page = Page.parse(root, pair.src, pair.dst)
-    page.render()
+    copytree(config.static, config.out / "static", dirs_exist_ok=True)
+    return 0
 
-  static = Path("static/")
-  copytree(static, out / "static", dirs_exist_ok=True)
-  return 0
 
-if __name__ == '__main__':
-  from sys import argv
-  exit(main(argv))
+if __name__ == "__main__":
+    from sys import argv
+
+    exit(main(argv))

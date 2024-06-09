@@ -2,6 +2,7 @@
 title: Bip
 desc:
     An overview and history of the design of qeaml's custom build system, bip.
+keywords: [Bip, Build System, C++, Python]
 ---
 
 **Bip**, for **b**uild **i**t **p**lease, is an extensible build system written

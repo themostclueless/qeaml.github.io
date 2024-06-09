@@ -2,6 +2,7 @@
 title: Windows Registry Tweaks
 desc: "Small registry tweaks which make using Windows easier. Includes tweaks
 for Explorer, the search bar and the hardware clock for dual-booting with Linux."
+keywords: [Windows]
 ---
 
 ## `FastExplorer`
