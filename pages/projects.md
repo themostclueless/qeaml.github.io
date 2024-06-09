@@ -4,18 +4,16 @@ desc: "A list of qeaml's active and currently inactive projects, only ones which
 also have a page on this website."
 ---
 
-# Project List
-
 Below is a list of all projects that I've started which have a page on this
 website:
 
 ## Active
 
-* [nwge](/nwge)
-  * [Shitting Bricks Simulator 2024](/sbs2024)
-* [bip](/bip)
+* [nwge](/project/nwge)
+* [Shitting Bricks Simulator 2024](/project/sbs2024)
+* [bip](/project/bip)
 
 ## Inactive
 
-* [skol](/skol)
-* [Shitting Bricks Simulator 2022](/sbs2022)
+* [skol](/project/skol)
+* [Shitting Bricks Simulator 2022](/project/sbs2022)

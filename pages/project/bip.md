@@ -4,8 +4,6 @@ desc:
     An overview and history of the design of qeaml's custom build system, bip.
 ---
 
-# Bip
-
 **Bip**, for **b**uild **i**t **p**lease, is an extensible build system written
 in Python. Although it is mostly focused on C/C++ projects, it can integrate
 with other languages through its **plugin system**.

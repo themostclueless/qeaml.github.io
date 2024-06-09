@@ -4,8 +4,6 @@ desc: "Small registry tweaks which make using Windows easier. Includes tweaks
 for Explorer, the search bar and the hardware clock for dual-booting with Linux."
 ---
 
-# Windows Registry Tweaks
-
 ## `FastExplorer`
 
 This registry tweak stops Explorer from opening every file in a folder to detect
