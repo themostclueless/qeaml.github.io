@@ -11,7 +11,7 @@ keywords: [Character, OC, Cat, Anthro]
 
 ## Appearance
 
-She is an anthropomorphic cat with light gray fur and dark gray hair. She is
+She is an anthropomorphic cat with light gray fur and dark green hair. She is
 usually seen wearing a dark gray beanie and dark gray hoodie. She also has
 permanent eye bags and oft wears a golden earring.
 
