@@ -75,3 +75,36 @@ p {
 h1, h2, h3, h4, h5, h6, b, strong, a {
   font-weight: 600;
 }
+
+li {
+    font-weight: 200;
+}
+
+.char-portrait {
+    max-width: 10rem;
+    max-height: 10rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    float: right;
+}
+
+.gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-elem {
+    text-align: center;
+    font-size: 75%;
+    line-height: 1.5em;
+    margin: 0.25rem;
+    padding: 0.25rem;
+    max-width: 10rem;
+}
+
+.gallery-elem img {
+    max-width: 9rem;
+    max-height: 9rem;
+}
