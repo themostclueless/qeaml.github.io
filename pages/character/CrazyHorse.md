@@ -1,5 +1,6 @@
 ---
 title: Crazy Horse
+in: Character Encyclopedia
 desc:
     Ed "Kill Yousef" Crazy, also known as Weird "Horse" Yankovic or simply
     Crazy Horse.

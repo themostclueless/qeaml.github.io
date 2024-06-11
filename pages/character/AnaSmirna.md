@@ -1,5 +1,6 @@
 ---
 title: Ana Smirna
+in: Character Encyclopedia
 desc: Ana Smirna is an original character designed by qeaml.
 keywords: [Character, OC, Cat, Anthro]
 ---

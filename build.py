@@ -27,6 +27,7 @@ class Page:
     config: Config
     path: str
     title: str
+    section: str # which section of the website does this fall under
     desc: str
     keywords: list[str]
     content: str
@@ -54,6 +55,7 @@ class Page:
         path = src.relative_to(config.src).with_suffix("").as_posix()
         title_in_meta = False
         title = src.with_suffix("").name.capitalize()
+        section = ""
         desc = "This page has no description."
         keywords = []
         keywords.extend(config.base_keywords)
@@ -63,6 +65,8 @@ class Page:
             if "title" in meta:
                 title = meta["title"]
                 title_in_meta = True
+            if "in" in meta:
+                section = meta["in"]
             if "desc" in meta:
                 desc = meta["desc"]
             if "keywords" in meta:
@@ -71,16 +75,19 @@ class Page:
         if title_in_meta:
             raw_content = f"# {title}\n\n{raw_content}"
 
-        return cls(config, path, title, desc, keywords, raw_content, dst)
+        return cls(config, path, title, section, desc, keywords, raw_content, dst)
 
     def render(self):
         self.dst.parent.mkdir(parents=True, exist_ok=True)
         content = markdown(self.content)
         with self.dst.open("wt") as f:
+            real_title = self.title
+            if self.section != "":
+                real_title += " :: " + self.section
             f.write(
                 g_template.render(
                     body=content,
-                    title=self.title,
+                    title=real_title,
                     desc=self.desc,
                     keywords=self.keywords,
                     fullURL=f"{self.config.base_url}/{self.path}",

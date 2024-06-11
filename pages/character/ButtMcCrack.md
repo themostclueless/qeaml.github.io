@@ -1,5 +1,6 @@
 ---
 title: Butt McCrack
+in: Character Encyclopedia
 desc:
     Butt McCrack is the protagonist of the game Shitting Bricks Simulator 2024.
 keywords: [Character, Human, Shitting Bricks Simulator]

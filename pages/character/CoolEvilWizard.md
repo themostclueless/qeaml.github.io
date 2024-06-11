@@ -1,5 +1,6 @@
 ---
 title: Cool Evil Wizard
+in: Character Encyclopedia
 desc:
   The Cool Evil Wizard is the main antagonist of Shitting Bricks Simulator 2024.
 ---

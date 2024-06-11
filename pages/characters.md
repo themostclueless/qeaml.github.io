@@ -1,5 +1,6 @@
 ---
-title: Character Encyclopedia
+title: The Character List
+in: Character Encyclopedia
 desc:
   A list of all entries in qeaml's Character Encyclopedia.
 keywords: [Character]
