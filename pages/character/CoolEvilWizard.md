@@ -3,7 +3,11 @@ title: Cool Evil Wizard
 in: Character Encyclopedia
 desc:
   The Cool Evil Wizard is the main antagonist of Shitting Bricks Simulator 2024.
+thumb: /static/Img/Character/CoolEvilWizard/Wizard.png
+keywords: [Character, Human, Shitting Bricks Simulator]
 ---
+
+<img class="char-portrait" src="/static/Img/Character/CoolEvilWizard/Wizard.png">
 
 The **Cool Evil Wizard** is the main antagonist of [Shitting Bricks Simulator
 2024]. In the game, he is only mentioned in an e-mail viewable in the **Extras**
@@ -33,6 +37,21 @@ function spoil() {
 ## Trivia
 
 * His e-mail address is `theevilwizard5421@wizardnet.com`.
+
+## Gallery
+
+<div class="gallery">
+
+<figure class="gallery-elem">
+    <a href="/static/Img/Character/CoolEvilWizard/Wizard.png">
+        <img src="/static/Img/Character/CoolEvilWizard/Wizard.png">
+    </a>
+    <figcaption>
+        January 2020 drawing of the Cool Evil Wizard
+    </figcaption>
+</figure>
+
+</div>
 
 ## See Also
 
