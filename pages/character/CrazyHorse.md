@@ -63,4 +63,4 @@ Click to view full resolution.
 
 [Qeamlymomi]: https://x.com/Qeamlymomi
 [qeaml]: https://qeaml.github.io
-[Gordon]: /static/Img/Character/CrazyHorse/Gordon.jpg
+[Gordon]: /static/Img/Character/CrazyHorse/Gordon.png
