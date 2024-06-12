@@ -12,8 +12,10 @@ Below is a list of all current Character Encyclopedia (ChEn) entries:
 * [Butt McCrack]
 * The [Cool Evil Wizard]
 * [Crazy Horse]
+* [Manitch]
 
 [Ana Smirna]: /character/AnaSmirna
 [Butt McCrack]: /character/ButtMcCrack
 [Cool Evil Wizard]: /character/CoolEvilWizard
 [Crazy Horse]: /character/CrazyHorse
+[Manitch]: /character/Manitch
