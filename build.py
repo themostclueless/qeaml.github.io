@@ -27,8 +27,9 @@ class Page:
     config: Config
     path: str
     title: str
-    section: str # which section of the website does this fall under
+    section: str  # which section of the website does this fall under
     desc: str
+    thumb: str
     keywords: list[str]
     content: str
     dst: Path
@@ -57,6 +58,7 @@ class Page:
         title = src.with_suffix("").name.capitalize()
         section = ""
         desc = "This page has no description."
+        thumb = "/static/logo-small.png"
         keywords = []
         keywords.extend(config.base_keywords)
 
@@ -69,13 +71,17 @@ class Page:
                 section = meta["in"]
             if "desc" in meta:
                 desc = meta["desc"]
+            if "thumb" in meta:
+                thumb = meta["thumb"]
             if "keywords" in meta:
                 keywords.extend(meta["keywords"])
 
         if title_in_meta:
             raw_content = f"# {title}\n\n{raw_content}"
 
-        return cls(config, path, title, section, desc, keywords, raw_content, dst)
+        return cls(
+            config, path, title, section, desc, thumb, keywords, raw_content, dst
+        )
 
     def render(self):
         self.dst.parent.mkdir(parents=True, exist_ok=True)
@@ -89,6 +95,7 @@ class Page:
                     body=content,
                     title=real_title,
                     desc=self.desc,
+                    thumb=self.thumb,
                     keywords=self.keywords,
                     fullURL=f"{self.config.base_url}/{self.path}",
                 )
