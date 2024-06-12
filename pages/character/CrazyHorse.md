@@ -21,6 +21,7 @@ was originally conceived by [qeaml].
 
 * He is a divorce lawyer.
 * He is in witness protection.
+* He [knows Gordon Freeman][Gordon].
 
 ## Gallery
 
@@ -62,3 +63,4 @@ Click to view full resolution.
 
 [Qeamlymomi]: https://x.com/Qeamlymomi
 [qeaml]: https://qeaml.github.io
+[Gordon]: /static/Img/Character/CrazyHorse/Gordon.png
