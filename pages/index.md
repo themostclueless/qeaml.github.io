@@ -24,8 +24,9 @@ If you're interested in my portfolio, take a peek at the [Projects] page.
 * [Spotify]
 * [YouTube]
 * [PronounsPage]
+* [GameBanana]
 
-If you wish to get in contact, the best way is through **Twitter**.Keep in mind
+If you wish to get in contact, the best way is through **Twitter**. Keep in mind
 that I have next to no filter whenever tweeting, so be prepared to see some odd
 thoughts when scrolling through my profile(s).
 
@@ -46,3 +47,4 @@ thoughts when scrolling through my profile(s).
 [YouTube]: https://youtube.com/@qeaml
 [PronounsPage]: https://en.pronouns.page/@qeaml
 [LinkTree]: https://linktr.ee/qeaml
+[GameBanana]: https://gamebanana.com/members/1479808
