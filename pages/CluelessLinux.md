@@ -9,26 +9,29 @@ keywords: [Linux]
 Before you troubleshoot, it is worth it to update and restart your system,
 especially if you haven't updated in a while:
 
-```bash
+```
 apt update
 sudo apt upgrade
 ```
 
 ## Running `.exe` fails with program error
 
+Keep in mind that `.exe` files are not meant to run on Linux, so there is 0
+guarantee they will work!
+
 1. Open the directory containing the `.exe` in your terminal:
     a. Right click in file manager and click `Open in Terminal`
     b. Open Terminal and manually navigate to it
 2. Ensure the file has the executable bit set:
-    ```bash
+    ```
     chmod +x ./<file>.exe
     ```
 3. Try running the file directly:
-    ```bash
+    ```
     ./<file>.exe
     ```
 4. Try running it through `wine`:
-    ```bash
+    ```
     wine ./<file>.exe
     ```
 
