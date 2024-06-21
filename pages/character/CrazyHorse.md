@@ -23,6 +23,7 @@ was originally conceived by [qeaml].
 * He is a divorce lawyer.
 * He is in witness protection.
 * He [knows Gordon Freeman][Gordon].
+* He is a resident of South Dakota.
 
 ## Gallery
 
