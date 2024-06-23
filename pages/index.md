@@ -33,6 +33,7 @@ thoughts when scrolling through my profile(s).
 ## Other Stuff
 
 * [Windows Registry Tweaks](/WindowsRegistry)
+* [List of Lithuanians](/LT)
 
 [Projects]: /projects
 [Twitter]: https://twitter.com/qeamlbackup
