@@ -4,12 +4,11 @@ desc: This is a list of people who are confirmed to be Lithuanian.
 keywords: [Lithuania]
 ---
 
-This is a list of people who are confirmed to be [Lithuania]n, in no particular
-order:
+This is a list of people who are confirmed to be [Lithuania]n.
 
 * [domi9]
 * [dima_wallhacks]
-* [Linux]
+* [Linux], see [this tweet](https://x.com/Iinux/status/1702571514086740034).
 * [NISLT]/siN
 * [yabujin]
 * [ASBusinessMagnet]
