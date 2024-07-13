@@ -3,10 +3,6 @@ title: Home
 desc: qeaml's personal website
 ---
 
-Hello :)
-
-## About Me
-
 Hello! My name is **qeaml** (pronounced key-*mill*). I'm 19 years old and live
 in the beautiful country of Poland.
 
@@ -19,7 +15,6 @@ If you're interested in my portfolio, take a peek at the [Projects] page.
 * [Discord] (nwge game studios server)
 * [itch.io]
 * [BlueSky]
-* [Cara]
 * [Bandcamp]
 * [Spotify]
 * [YouTube]
@@ -41,7 +36,6 @@ thoughts when scrolling through my profile(s).
 [itch.io]: https://qeaml.itch.io
 [Discord]: https://discord.gg/y7GxumVE3G
 [BlueSky]: https://bsky.app/profile/qeaml.bsky.social
-[Cara]: https://cara.app/qeaml
 [Bandcamp]: https://qeaml.bandcamp.com
 [Spotify]:
     https://open.spotify.com/artist/0dWlVjsXUfWpdTjqrgV8BV?si=Dl8NuvVhRWeOTu9cJ3fmQQ
