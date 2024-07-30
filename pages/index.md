@@ -3,10 +3,32 @@ title: Home
 desc: qeaml's personal website
 ---
 
-Hello! My name is **qeaml** (pronounced key-*mill*). I'm 19 years old and live
-in the beautiful country of Poland.
+<p id="first-p">
+Hello! My name is <strong>qeaml</strong> (pronounced key-mill). I'm AGE years
+old and live in the beautiful country of Poland.
+</p>
 
-If you're interested in my portfolio, take a peek at the [Projects] page.
+<script>
+let now = new Date();
+let age = now.getFullYear() - 2006;
+// if after march 8th
+if(now.getMonth() > 2 || (now.getMonth() == 2 && now.getDate() > 8)) {
+    age++;
+}
+let paragraph = document.getElementById("first-p");
+paragraph.innerHTML = paragraph.innerHTML.replace("AGE", age);
+
+if(now.getMonth() == 2 && now.getDay() == 8) {
+    paragraph.innerHTML += " It's my birthday today! 🎉";
+}
+
+// halloween
+if(now.getMonth() == 9 && now.getDate() == 31) {
+    paragraph.innerHTML += " Have a spooky Halloween! 🎃";
+}
+
+
+</script>
 
 ## Links
 

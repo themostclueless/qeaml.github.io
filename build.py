@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from dataclasses import dataclass
 from mako.template import Template
 from mako.lookup import TemplateLookup
