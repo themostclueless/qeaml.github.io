@@ -16,7 +16,7 @@ This is a list of people who are confirmed to be [Lithuania]n.
 * [Skillerikx]
 
 [Lithuania]: https://en.wikipedia.org/wiki/Lithuania
-[domi9]: https://www.youtube.com/@diningroom9
+[domi9]: https://www.youtube.com/@domer_9
 [dima_wallhacks]: https://www.youtube.com/@dima_aimbots
 [Linux]: https://x.com/Iinux
 [NISLT]: https://www.youtube.com/@NISLT
