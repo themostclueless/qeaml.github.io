@@ -43,6 +43,8 @@ She takes the appearance of the infamous [`male_07`][male_07] model from
 
 * She has a **NeutronMail** account, which is a reference to [ProtonMail]. The
   account's address is `buttmccrack@neutronmail.com`.
+* In Gar28, one of the bathroom stalls is always locked with the SBS2024 main
+  theme playing from within. This is likely a reference to Butt McCrack.
 
 ## See Also
 
