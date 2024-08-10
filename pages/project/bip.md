@@ -52,6 +52,13 @@ solutions. While programs like CMake and Visual Studio are incredibly powerful,
 I wanted something more dumbed-down. I also wanted something that was easy to
 extend and modify.
 
+<figure>
+    <img src="/static/Img/bip.png" alt="Discord screenshot" />
+    <figcaption>
+        Exchange about Bip and CMake.
+    </figcaption>
+</figure>
+
 While there are plenty of other choices out there (GNU Make, XMake, PreMake,
 Meson, just to name a few!), none of them seem to fit my particular taste.
 I like bip's component-oriented design. It's simple, easy to understand and
