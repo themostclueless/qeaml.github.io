@@ -1,0 +1,15 @@
+<p id="spoler-${id}-warning">
+    <strong>WARNING!</strong> Contains spoilers for ${spoils}!
+    <a href="#" onclick="spoiler_${id}_show();">Show</a>
+</p>
+
+<p id="spoler-${id}-content" style="display:none">
+    ${content}
+</p>
+
+<script>
+function spoiler_${id}_show() {
+    document.getElementById("spoler-${id}-warning").style.display = "none";
+    document.getElementById("spoler-${id}-content").style.display = "block";
+}
+</script>

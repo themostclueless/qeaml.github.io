@@ -88,6 +88,13 @@ li {
     float: right;
 }
 
+.char-portrait img {
+    max-width: 10rem;
+    max-height: 10rem;
+    margin: 0;
+    padding: 0;
+}
+
 .gallery {
     display: flex;
     flex-flow: row wrap;

@@ -7,7 +7,12 @@ thumb: /static/Img/Character/ButtMcCrack/InGame.png
 keywords: [Character, Human, Shitting Bricks Simulator]
 ---
 
-<img class="char-portrait" src="/static/Img/Character/ButtMcCrack/InGame.png">
+---
+template: "ChEn/portrait"
+char: "ButtMcCrack"
+file: "InGame.png"
+charName: "Butt McCrack"
+---
 
 **Butt McCrack** is the protagonist of [Shitting Bricks Simulator 2024]. In the
 game, she is only mentioned in an e-mail viewable in the **Extras** menu after
@@ -15,24 +20,15 @@ completing the game for the first time.
 
 ## Story
 
-<p id="spoilerWarning">
-<strong>WARNING!</strong> Contains spoilers for SBS2024.
-<a href="#" onclick="spoil()">Show</a>
-</p>
-
-<p id="spoiler" style="display: none;">
-In an <a href="/static/Img/SBS2024_e-mail.png">e-mail</a> sent to her by the <a
-href="/character/CoolEvilWizard">Cool Evil Wizard</a>, he notifies her of the
-curse he placed upon her. Due to an unspecified sput with him, he cursed her to
-"shit bricks for 1,000,000 years. And [...] for 2,000,000 years more".
-</p>
-
-<script>
-function spoil() {
-    spoilerWarning.style.display = "none";
-    spoiler.style.display = "block";
-}
-</script>
+---
+template: "spoiler"
+id: "story"
+spoils: "SBS2024"
+content:
+  "In an e-mail sent to her by the Cool Evil Wizard, he notifies her of the
+  curse he placed upon her. Due to an unspecified sput with him, he cursed her
+  to \"shit bricks for 1,000,000 years. And [...] for 2,000,000 years more\"."
+---
 
 ## Appearance
 

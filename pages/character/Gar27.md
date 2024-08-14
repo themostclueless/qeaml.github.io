@@ -7,7 +7,12 @@ thumb: "/static/Img/Character/Gar27/He.png"
 keywords: [Character, Gar28]
 ---
 
-<img class="char-portrait" src="/static/Img/Character/Gar27/He.png">
+---
+template: "ChEn/portrait"
+char: "Gar27"
+file: "He.png"
+charName: "Gar27"
+---
 
 **Gar27** is a minor character appearing in the game Gar28. It appears outside
 of the player's view and follows the player around when out of sight. Its feet
@@ -27,29 +32,15 @@ shorter than [Gar28], with a height of 72cm (27 inches).
 
 ## Gallery
 
-Click to view full resolution.
-
-<div class="gallery">
-
-<figure class="gallery-elem">
-    <a href="/static/Img/Character/Gar27/Side.png">
-        <img src="/static/Img/Character/Gar27/Side.png">
-    </a>
-    <figcaption>
-        Gar27 pretending not to follow the player
-    </figcaption>
-</figure>
-
-<figure class="gallery-elem">
-    <a href="/static/Img/Character/Gar27/Dead.png">
-        <img src="/static/Img/Character/Gar27/Dead.png">
-    </a>
-    <figcaption>
-        Gar27 after getting goomba stomped.
-    </figcaption>
-</figure>
-
-</div>
+---
+template: "ChEn/gallery"
+char: "Gar27"
+images:
+  - file: "He.png"
+    caption: "Gar27 pretending not to follow the player"
+  - file: "Dead.png"
+    caption: "Gar27 after getting goomba stomped."
+---
 
 ## See Also
 

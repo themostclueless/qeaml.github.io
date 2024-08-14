@@ -6,7 +6,12 @@ thumb: /static/Img/Character/Manitch/02.jpg
 keywords: [Character, OC, Cat, Anthro]
 ---
 
-<img class="char-portrait" src="/static/Img/Character/Manitch/02.jpg">
+---
+template: "ChEn/portrait"
+char: "Manitch"
+file: "02.jpg"
+charName: "Manitch"
+---
 
 **Manitch Monumut** (canonically *Manizh Monumut*) is an original character
 designed by [qeaml].
@@ -26,54 +31,21 @@ tall and lanky.
 
 ## Gallery
 
-<div class="gallery">
-
-<figure class="gallery-elem">
-    <a href="/static/Img/Character/Manitch/02.jpg">
-        <img src="/static/Img/Character/Manitch/02.jpg">
-    </a>
-    <figcaption>
-        Manitch's original appearance (Daily Kitty 02)
-    </figcaption>
-</figure>
-
-<figure class="gallery-elem">
-    <a href="/static/Img/Character/Manitch/62.jpg">
-        <img src="/static/Img/Character/Manitch/62.jpg">
-    </a>
-    <figcaption>
-        Manitch smoking a blunt (Daily Kitty 62)
-    </figcaption>
-</figure>
-
-<figure class="gallery-elem">
-    <a href="/static/Img/Character/Manitch/96.jpg">
-        <img src="/static/Img/Character/Manitch/96.jpg">
-    </a>
-    <figcaption>
-        Manitch & Nesa cuddling (Daily Kitty 96)
-    </figcaption>
-</figure>
-
-<figure class="gallery-elem">
-    <a href="/static/Img/Character/Manitch/125.jpg">
-        <img src="/static/Img/Character/Manitch/125.jpg">
-    </a>
-    <figcaption>
-        Boys night out (Daily Kitty 125)
-    </figcaption>
-</figure>
-
-<figure class="gallery-elem">
-    <a href="/static/Img/Character/Manitch/133.jpg">
-        <img src="/static/Img/Character/Manitch/133.jpg">
-    </a>
-    <figcaption>
-        Sexual innuendo (Daily Kitty 133)
-    </figcaption>
-</figure>
-
-</div>
+---
+template: "ChEn/gallery"
+char: "Manitch"
+images:
+  - file: "02.jpg"
+    caption: "Manitch's original appearance (Daily Kitty 02)"
+  - file: "62.jpg"
+    caption: "Manitch smoking a blunt (Daily Kitty 62)"
+  - file: "96.jpg"
+    caption: "Manitch & Nesa cuddling (Daily Kitty 96)"
+  - file: "125.jpg"
+    caption: "Boys' night out (Daily Kitty 125)"
+  - file: "133.jpg"
+    caption: "Sexual innuendo (Daily Kitty 133)"
+---
 
 [qeaml]: https://qeaml.github.io
 [Daily Kitty 02]: /static/Img/Character/Manitch/02.jpg

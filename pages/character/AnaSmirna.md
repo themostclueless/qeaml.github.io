@@ -6,7 +6,12 @@ thumb: /static/Img/Character/AnaSmirna/131.jpg
 keywords: [Character, OC, Cat, Anthro]
 ---
 
-<img class="char-portrait" src="/static/Img/Character/AnaSmirna/131.jpg">
+---
+template: "ChEn/portrait"
+char: "AnaSmirna"
+file: "131.jpg"
+charName: "Ana Smirna"
+---
 
 **Ana Smirna** is an original character designed by [qeaml].
 
@@ -27,38 +32,17 @@ permanent eye bags and oft wears a golden earring.
 
 ## Gallery
 
-Click to view full resolution.
-
-<div class="gallery">
-
-<figure class="gallery-elem">
-    <a href="/static/Img/Character/AnaSmirna/131.jpg">
-        <img src="/static/Img/Character/AnaSmirna/131.jpg">
-    </a>
-    <figcaption>
-        Daily Kitty 131
-    </figcaption>
-</figure>
-
-<figure class="gallery-elem">
-    <a href="/static/Img/Character/AnaSmirna/132.jpg">
-        <img src="/static/Img/Character/AnaSmirna/132.jpg">
-    </a>
-    <figcaption>
-        Ana waiting at a bus stop (Daily Kitty 132)
-    </figcaption>
-</figure>
-
-<figure class="gallery-elem">
-    <a href="/static/Img/Character/AnaSmirna/FanArt.jpg">
-        <img src="/static/Img/Character/AnaSmirna/FanArt.jpg">
-    </a>
-    <figcaption>
-        Fan art by <a href="https://x.com/ceedobs">ceedobs</a>
-    </figcaption>
-</figure>
-
-</div>
+---
+template: "ChEn/gallery"
+char: "AnaSmirna"
+images:
+  - file: "131.jpg"
+    caption: "Daily Kitty 131"
+  - file: "132.jpg"
+    caption: "Ana waiting at a bus stop (Daily Kitty 132)"
+  - file: "FanArt.jpg"
+    caption: "Fan art of Ana"
+---
 
 [Huntress Wizard]: https://adventuretime.fandom.com/wiki/Huntress_Wizard
 [Cansado]: https://x.com/akeivi_official/status/1781780185139835107
