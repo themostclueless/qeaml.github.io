@@ -84,7 +84,7 @@ Particularly, I'm thinking of implementing compatibility modes for
 MSBuild/Visual Studio solutions, CMake and GNU Make.
 
 [bip documentation]:
-    https://github.com/qeaml/bip/tree/main/doc
+    https://codeberg.org/q/bip/src/branch/main/doc
 [nwge-template recipe]:
     https://github.com/qeaml/nwge-template/blob/main/recipe.toml
 [qcbs]: https://github.com/qeaml/bs
