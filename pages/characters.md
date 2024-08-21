@@ -12,6 +12,7 @@ Below is a list of all current Character Encyclopedia (ChEn) entries:
 * [Butt McCrack]
 * The [Cool Evil Wizard]
 * [Crazy Horse]
+* [Domi Kermoid]
 * [Gar27]
 * [Gar28]
 * [Kurt McDoubleburger]
@@ -21,6 +22,7 @@ Below is a list of all current Character Encyclopedia (ChEn) entries:
 [Butt McCrack]: /character/ButtMcCrack
 [Cool Evil Wizard]: /character/CoolEvilWizard
 [Crazy Horse]: /character/CrazyHorse
+[Domi Kermoid]: /character/DomiKermoid
 [Gar27]: /character/Gar27
 [Gar28]: /character/Gar28
 [Kurt McDoubleburger]: /character/KurtMcDoubleburger

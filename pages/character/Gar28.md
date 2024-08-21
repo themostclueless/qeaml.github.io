@@ -21,7 +21,7 @@ visible when looking in a mirror.
 ## Appearance
 
 Gar is an anthropomorphic siamese cat. She has blue eyes with thin pupils. Her
-hips are unnaturally wide. She is 187cm tall (6 feet 1 inch).
+hips are unnaturally wide. She is 165cm tall (5'5").
 
 ## Trivia
 
