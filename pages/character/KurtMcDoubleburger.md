@@ -15,7 +15,8 @@ charName: "Kurt McDoubleburger"
 ---
 
 **Kurt McDoubleburger** is a minor character appearing in the game Gar28. He is
-the CEO of Perc Finance, a company closely related to Perc Industries.
+the CEO of Perc Finance, a company closely related to Perc Industries. He can be
+found in the game Gar28 in the break room of [Har28]'s hardware store.
 
 ## Appearance
 
@@ -25,6 +26,8 @@ is based on a [cat photo].
 
 ## Trivia
 
+* He is divorced.
+* He is homosexual.
 * The name Kurt McDoubleburger originates from [qeaml]'s Steam profile, where he
   used many similar names, such as Kurt McCrispybacon or Kurt McAutisticgamer.
 * His appearance is based on a [cat photo] used by qeaml on Discord.
@@ -45,8 +48,10 @@ images:
 ## See Also
 
 * [Gar28]
+* [Har28]
 
 [qeaml]: /
 [cat photo]: /static/Img/Character/KurtMcDoubleburger/Kitty.jpeg
 [Twitter]: https://twitter.com/qeamlbackup
 [Gar28]: /character/Gar28
+[Har28]: /character/Har28

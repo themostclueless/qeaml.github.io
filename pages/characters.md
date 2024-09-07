@@ -15,6 +15,7 @@ Below is a list of all current Character Encyclopedia (ChEn) entries:
 * [Domi Kermoid]
 * [Gar27]
 * [Gar28]
+* [Har28]
 * [Kurt McDoubleburger]
 * [Manitch]
 
@@ -25,5 +26,6 @@ Below is a list of all current Character Encyclopedia (ChEn) entries:
 [Domi Kermoid]: /character/DomiKermoid
 [Gar27]: /character/Gar27
 [Gar28]: /character/Gar28
+[Har28]: /character/Har28
 [Kurt McDoubleburger]: /character/KurtMcDoubleburger
 [Manitch]: /character/Manitch
