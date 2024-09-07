@@ -19,6 +19,7 @@ the CEO of Perc Finance, a company closely related to Perc Industries. He can be
 found in the game Gar28 in the break room of [Har28]'s hardware store.
 
 ## Kurtcopter
+
 Kurtcopter (shortened to just Kurt) is Kurt's contribution to the Mars Trio Mission.
 As the name implies, it is a robotic helicopter that was made to demonstrate flying
 capabilities on another planet. His invention was adopted by Perc Industries, which
