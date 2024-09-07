@@ -18,6 +18,15 @@ charName: "Kurt McDoubleburger"
 the CEO of Perc Finance, a company closely related to Perc Industries. He can be
 found in the game Gar28 in the break room of [Har28]'s hardware store.
 
+## Kurtcopter
+
+Kurtcopter (shortened to just Kurt) is Kurt's contribution to the Mars Trio Mission.
+As the name implies, it is a robotic helicopter that was made to demonstrate flying
+capabilities on another planet. His invention was adopted by Perc Industries, which
+helped him start his own company, Perc Finance. Along with the Kurtcopter sat Yo
+(the rover) and Neyo (the relay). They were tested extensively by Domi Space Agency
+and were ultimately approved for production by Torlaxse Laboratories.
+
 ## Appearance
 
 Kurt is a black cat wearing a pair of round glasses. He has a little bit of
@@ -43,6 +52,8 @@ images:
     caption: "Kurt, as seen in the Perc Finance banner"
   - file: "Kitty.jpeg"
     caption: "Cat photo used as base of Kurt's design"
+  - file: "Kurtcopter.jpg"
+    caption: "The Kurtcopter in a computer simulation. Copyright: Perc Industries"
 ---
 
 ## See Also
