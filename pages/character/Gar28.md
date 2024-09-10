@@ -38,6 +38,10 @@ images:
     caption: "Gar looking in the mirror"
   - file: "PixelArt.png"
     caption: "Pixel art of Gar (in the Creeper Mogging Society)"
+  - file: "Intro.png"
+    caption: "Gar as seen in the game intro"
+  - file: "Touch.png"
+    caption: "Gar making a respectful request"
 ---
 
 ## See Also
