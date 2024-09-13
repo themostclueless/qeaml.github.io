@@ -39,3 +39,4 @@ games created with the [nwge] engine. It is a subset of [Qeamlymomi Studios].
 [Discord]: https://discord.gg/y7GxumVE3G
 [qeaml]: /
 [domi]: https://youtube.com/@domer_9
+[clueless]: https://x.com/themostclueless
