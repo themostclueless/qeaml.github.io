@@ -25,7 +25,7 @@ games created with the [nwge] engine. It is a subset of [Qeamlymomi Studios].
 
 * [qeaml] - programming, art, sound effects, music
 * [domi] - game design, textures, sound effects
-
+* [clueless] - ideas
 ## See Also
 
 * [nwge]
