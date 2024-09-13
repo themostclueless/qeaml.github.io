@@ -3,14 +3,14 @@ title: "Gar27"
 in: "Character Encyclopedia"
 desc:
     "Gar27 is a minor character appearing in the game Gar28."
-thumb: "/static/Img/Character/Gar27/He.png"
+thumb: "/static/Img/Character/Gar27/He.jpg"
 keywords: [Character, Gar28]
 ---
 
 ---
 template: "ChEn/portrait"
 char: "Gar27"
-file: "He.png"
+file: "He.jpg"
 charName: "Gar27"
 ---
 
@@ -36,9 +36,9 @@ shorter than [Gar28], with a height of 72cm (27 inches).
 template: "ChEn/gallery"
 char: "Gar27"
 images:
-  - file: "He.png"
+  - file: "He.jpg"
     caption: "Gar27 pretending not to follow the player"
-  - file: "Dead.png"
+  - file: "Dead.jpg"
     caption: "Gar27 after getting goomba stomped."
 ---
 

@@ -3,14 +3,14 @@ title: Butt McCrack
 in: Character Encyclopedia
 desc:
     Butt McCrack is the protagonist of the game Shitting Bricks Simulator 2024.
-thumb: /static/Img/Character/ButtMcCrack/InGame.png
+thumb: /static/Img/Character/ButtMcCrack/InGame.jpg
 keywords: [Character, Human, Shitting Bricks Simulator]
 ---
 
 ---
 template: "ChEn/portrait"
 char: "ButtMcCrack"
-file: "InGame.png"
+file: "InGame.jpg"
 charName: "Butt McCrack"
 ---
 
@@ -48,7 +48,7 @@ She takes the appearance of the infamous [`male_07`][male_07] model from
 * [Shitting Bricks Simulator 2024]
 
 [Shitting Bricks Simulator 2024]: /project/sbs2024
-[e-mail]: /static/Img/SBS2024_e-mail.png
+[e-mail]: /static/Img/SBS2024_e-mail.jpg
 [Cool Evil Wizard]: /character/CoolEvilWizard
 [male_07]: https://knowyourmeme.com/memes/male-07
 [Half-Life 2]: https://store.steampowered.com/app/220/HalfLife_2

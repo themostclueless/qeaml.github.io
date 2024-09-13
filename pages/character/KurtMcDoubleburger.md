@@ -50,7 +50,7 @@ char: "KurtMcDoubleburger"
 images:
   - file: "Portrait.jpg"
     caption: "Kurt, as seen in the Perc Finance banner"
-  - file: "Kitty.jpeg"
+  - file: "Kitty.jpg"
     caption: "Cat photo used as base of Kurt's design"
   - file: "Kurtcopter.jpg"
     caption: "The Kurtcopter in a computer simulation. Copyright: Perc Industries"
@@ -62,7 +62,7 @@ images:
 * [Har28]
 
 [qeaml]: /
-[cat photo]: /static/Img/Character/KurtMcDoubleburger/Kitty.jpeg
+[cat photo]: /static/Img/Character/KurtMcDoubleburger/Kitty.jpg
 [Twitter]: https://twitter.com/qeamlbackup
 [Gar28]: /character/Gar28
 [Har28]: /character/Har28

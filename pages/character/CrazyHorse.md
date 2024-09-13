@@ -4,14 +4,14 @@ in: Character Encyclopedia
 desc:
     Ed "Kill Yousef" Crazy, also known as Weird "Horse" Yankovic or simply
     Crazy Horse.
-thumb: /static/Img/Character/CrazyHorse/Bounce.png
+thumb: /static/Img/Character/CrazyHorse/Bounce.jpg
 keywords: [Character, Horse]
 ---
 
 ---
 template: "ChEn/portrait"
 char: "CrazyHorse"
-file: "Bounce.png"
+file: "Bounce.jpg"
 charName: "Crazy Horse"
 ---
 
@@ -36,14 +36,14 @@ was originally conceived by [qeaml].
 template: "ChEn/gallery"
 char: "CrazyHorse"
 images:
-  - file: "Bounce.png"
+  - file: "Bounce.jpg"
     caption: "Bouncy Horse"
-  - file: "OpposingHorse.png"
+  - file: "OpposingHorse.jpg"
     caption: "Crazy Horse in Half-Life: Opposing Force"
-  - file: "Diving.png"
+  - file: "Diving.jpg"
     caption: "Crazy Horse diving"
 ---
 
 [Qeamlymomi]: https://x.com/Qeamlymomi
 [qeaml]: https://qeaml.github.io
-[Gordon]: /static/Img/Character/CrazyHorse/Gordon.png
+[Gordon]: /static/Img/Character/CrazyHorse/Gordon.jpg

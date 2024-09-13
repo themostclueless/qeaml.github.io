@@ -3,14 +3,14 @@ title: "Gar28"
 in: "Character Encyclopedia"
 desc:
     "Gar is the protagonist and player character of the game Gar28."
-thumb: "/static/Img/Character/Gar28/Mirror.png"
+thumb: "/static/Img/Character/Gar28/Mirror.jpg"
 keywords: [Character, Cat, Gar28]
 ---
 
 ---
 template: "ChEn/portrait"
 char: "Gar28"
-file: "Mirror.png"
+file: "Mirror.jpg"
 charName: "Gar"
 ---
 
@@ -34,11 +34,11 @@ hips are unnaturally wide. She is 165cm tall (5'5").
 template: "ChEn/gallery"
 char: "Gar28"
 images:
-  - file: "Mirror.png"
+  - file: "Mirror.jpg"
     caption: "Gar looking in the mirror"
-  - file: "PixelArt.png"
+  - file: "PixelArt.jpg"
     caption: "Pixel art of Gar (in the Creeper Mogging Society)"
-  - file: "Intro.png"
+  - file: "Intro.jpg"
     caption: "Gar as seen in the game intro"
   - file: "Touch.png"
     caption: "Gar making a respectful request"
@@ -46,6 +46,8 @@ images:
 
 ## See Also
 
+* [Har28]
 * [Gar27]
 
+[Har28]: /character/Har28
 [Gar27]: /character/Gar27

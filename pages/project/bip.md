@@ -53,7 +53,7 @@ I wanted something more dumbed-down. I also wanted something that was easy to
 extend and modify.
 
 <figure>
-    <img src="/static/Img/bip.png" alt="Discord screenshot" />
+    <img src="/static/Img/bip.jpg" alt="Discord screenshot" />
     <figcaption>
         Exchange about Bip and CMake.
     </figcaption>

@@ -3,14 +3,14 @@ title: "Domi Kermoid"
 in: "Character Encyclopedia"
 desc:
     "Domi Kermoid is a minor character appearing in the game Gar28."
-thumb: "/static/Img/Character/DomiKermoid/Shop.png"
+thumb: "/static/Img/Character/DomiKermoid/Shop.jpg"
 keywords: [Character, Kerbal, Gar28]
 ---
 
 ---
 template: "ChEn/portrait"
 char: "DomiKermoid"
-file: "Shop.png"
+file: "Shop.jpg"
 charName: "Domi Kermoid"
 ---
 
