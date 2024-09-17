@@ -29,6 +29,7 @@ was originally conceived by [qeaml].
 * He is in witness protection.
 * He [knows Gordon Freeman][Gordon].
 * He is a resident of South Dakota.
+* The saying "Healthy like a horse" actually comes from Crazy Horse, who is known to be in good health, outside of his mental condition.
 
 ## Gallery
 
