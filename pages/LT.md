@@ -14,6 +14,7 @@ This is a list of people who are confirmed to be [Lithuania]n.
 * [M1dlet]
 * [ASBusinessMagnet]
 * [Skillerikx]
+* [No Idea Animation]
 
 [Lithuania]: https://en.wikipedia.org/wiki/Lithuania
 [domi9]: https://www.youtube.com/@domer_9
@@ -24,3 +25,4 @@ This is a list of people who are confirmed to be [Lithuania]n.
 [M1dlet]: https://soundcloud.com/m1dlet
 [ASBusinessMagnet]: https://hitlerparody.fandom.com/wiki/ASBusinessMagnet
 [Skillerikx]: https://youtube.com/@Skillerikx
+[No Idea Animation]: https://www.youtube.com/@NoIdeaAnimation
