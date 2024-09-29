@@ -42,6 +42,8 @@ images:
     caption: "Gar as seen in the game intro"
   - file: "Touch.png"
     caption: "Gar making a respectful request"
+  - file: "troublemaker gar.avif"
+    caption: "Troublemaker Gar"
 ---
 
 ## See Also
