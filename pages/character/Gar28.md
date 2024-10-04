@@ -20,8 +20,27 @@ visible when looking in a mirror.
 
 ## Appearance
 
-Gar is an anthropomorphic siamese cat. She has blue eyes with thin pupils. Her
+Gar is an anthropomorphic siamese cat. She has white eyes with thin pupils. Her
 hips are unnaturally wide. She is 165cm tall (5'5").
+
+### Multiplayer
+
+In multiplayer versions of the game Gar 28, each player is assigned a
+semi-randomly selected skin. Each skin is a variation of Gar's design.
+
+---
+template: "ChEn/gallery"
+char: "Gar28"
+images:
+  - file: "garscarada.png"
+    caption: "Garscarada, drawn by clueless"
+  - file: "garxen.png"
+    caption: "Garxen, drawn by qeaml"
+  - file: "gar kerman.png"
+    caption: "Gar Kerman, drawn by domi9"
+  - file: "bul-gar-ia.png"
+    caption: "Bul-Gar-ia, drawn by qeaml"
+---
 
 ## Trivia
 
@@ -49,7 +68,5 @@ images:
 ## See Also
 
 * [Har28]
-* [Gar27]
 
 [Har28]: /character/Har28
-[Gar27]: /character/Gar27
