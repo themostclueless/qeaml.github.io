@@ -35,6 +35,8 @@ char: "Har28"
 images:
   - file: "Shop.jpg"
     caption: "Har in his hardware store"
+  - file: "har injury.png"
+    caption: "Har after sustaning an injury"
 ---
 
 ## See Also
