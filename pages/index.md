@@ -32,11 +32,10 @@ if(now.getMonth() == 9 && now.getDate() == 31) {
 
 ## Links
 
-* [Twitter]
+* [BlueSky]
 * [GitHub]
 * [Discord] (nwge game studios server)
 * [itch.io]
-* [BlueSky]
 * [Bandcamp]
 * [Spotify]
 * [YouTube]
@@ -53,7 +52,6 @@ thoughts when scrolling through my profile(s).
 * [List of Lithuanians](/LT)
 
 [Projects]: /projects
-[Twitter]: https://twitter.com/qeamlbackup
 [GitHub]: https://github.com/qeaml
 [itch.io]: https://qeaml.itch.io
 [Discord]: https://discord.gg/y7GxumVE3G
