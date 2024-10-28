@@ -26,6 +26,11 @@ if(now.getMonth() == 2 && now.getDay() == 8) {
 if(now.getMonth() == 9 && now.getDate() == 31) {
     paragraph.innerHTML += " Have a spooky Halloween! 🎃";
 }
+
+// polish day of independence
+if(now.getMonth() == 10 && now.getDate() == 11) {
+    paragraph.innerHTML += " Happy Polish Independence Day! 🇵🇱";
+}
 </script>
 
 ## Links
