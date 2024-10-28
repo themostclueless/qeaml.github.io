@@ -26,8 +26,6 @@ if(now.getMonth() == 2 && now.getDay() == 8) {
 if(now.getMonth() == 9 && now.getDate() == 31) {
     paragraph.innerHTML += " Have a spooky Halloween! 🎃";
 }
-
-
 </script>
 
 ## Links
@@ -42,8 +40,8 @@ if(now.getMonth() == 9 && now.getDate() == 31) {
 * [PronounsPage]
 * [GameBanana]
 
-If you wish to get in contact, the best way is through **Twitter**. Keep in mind
-that I have next to no filter whenever tweeting, so be prepared to see some odd
+If you wish to get in contact, the best way is through **BlueSky**. Keep in mind
+that I have next to no filter whenever posting, so be prepared to see some odd
 thoughts when scrolling through my profile(s).
 
 ## Other Stuff
