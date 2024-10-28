@@ -40,6 +40,12 @@ images:
     caption: "Gar Kerman, drawn by domi9"
   - file: "bul-gar-ia.png"
     caption: "Bul-Gar-ia, drawn by qeaml"
+  - file: "gartian.png"
+    caption: "Gartian, drawn by clueless"
+  - file: "gar64.png"
+    caption: "Gar64, drawn by clueless"
+  - file: "gell.png"
+    caption: "Gell, drawn by clueless"
 ---
 
 ## Trivia
