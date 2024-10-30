@@ -14,7 +14,7 @@ file: "Portrait.jpg"
 charName: "Kurt McDoubleburger"
 ---
 
-**Kurt McDoubleburger** is a minor character appearing in the game Gar28. He is
+**Kurt McDouble&shy;burger** is a minor character appearing in the game Gar28. He is
 the CEO of Perc Finance, a company closely related to Perc Industries. He can be
 found in the game Gar28 in the break room of [Har28]'s hardware store.
 
@@ -29,7 +29,7 @@ and were ultimately approved for production by Torlaxse Laboratories.
 
 ## Appearance
 
-Kurt is a black cat wearing a pair of round glasses. He has a little bit of
+Kurt is an anthropomorphic black cat wearing a pair of round glasses. He has a little bit of
 white tuft on his chest. He is sometimes seen wearing a white shirt. His design
 is based on a [cat photo].
 
