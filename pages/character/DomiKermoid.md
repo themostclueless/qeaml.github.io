@@ -18,16 +18,9 @@ charName: "Domi Kermoid"
 shopkeeper of the Otherplace MegaDownloads shop. He is particularly off-put by
 Gar's inability to speak English.
 
----
-template: "spoiler"
-id: "InGame"
-spoils: "Gar28"
-content:
-  "When entering the shop, he will greet you and ask what you wish to purchase
-  from his store. When the player replies by meowing, he will ask the player to
-  go to a different store. If the player backflips before leaving, he will
-  exclaim his displeasure with the player's behavior."
----
+When entering the shop, he will greet you and ask what you wish to purchase from his store. When the player replies by meowing, he will ask the player to go to a different store. If the player backflips before leaving, he will exclaim his displeasure with the player's behavior.
+
+If the player completes the blackout sequence and obtains the shovel, they can hit Domi with it. When doing so, he will fall over and express his disdain for the feline kind. Hitting him again will cause him to disappear to a puff of smoke.
 
 ## Appearance
 
