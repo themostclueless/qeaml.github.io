@@ -29,14 +29,23 @@ Download: [`NoWebSearch.reg`][NoWebSearch]
 
 ## `UTC`
 
-This registry makes Windows interpret the hardware clock time as UTC rather than
-local time. This is useful if you have a dual-boot setup with Linux, as Linux
+This registry tweak makes Windows interpret the hardware clock time as UTC rather
+than local time. This is useful if you have a dual-boot setup with Linux, as Linux
 interprets the hardware clock time as UTC by default.
 
 Make sure to inspect the registry file you download before applying it.
 
 Download: [`UTC.reg`][UTC]
 
+## `DisableFastStartup`
+
+This registry tweak disables Fast Startup, which helps avoid some issues accessing the boot drive from Linux. On an SSD the startup speed even without Fast Startup is still rather fast.
+
+Make sure to inspect the registry file you download before applying it.
+
+Download: [`DisableFastStartup.reg`][DisableFastStartup]
+
 [FastExplorer]: /static/Windows/FastExplorer.reg
 [NoWebSearch]: /static/Windows/NoWebSearch.reg
 [UTC]: /static/Windows/UTC.reg
+[DisableFastStartup]: /static/Windows/DisableFastStartup.reg
