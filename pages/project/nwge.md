@@ -4,8 +4,6 @@ covers its design and history as well as reasoning for its creation."
 keywords: [Nwge, Game Engine, C++]
 ---
 
-# nwge
-
 nwge (for **n**e**w** **g**ame **e**ngine, pronounced *nooj*) is small
 game-oriented graphics-and-other-stuff engine.
 
