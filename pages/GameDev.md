@@ -8,6 +8,39 @@ A collection of old screenshots documenting my game development adventures.
 
 Names in quotes are placeholders or codenames.
 
+## WBYH
+
+ca. June 2024
+
+WBYH, or **W**hat **B**rings **Y**ou **H**ere, is a game similar in purpose to
+the roulette game described below, also based on [nwge]. This game, however,
+simply focused on [Manitch], the player character, having a conversation with
+Ata. The game would focus long dialogues between the two, with the player
+character having to choose between different conversation topics every so often.
+Every choice would lead the player to a different path in the conversation,
+meaning one would have to replay the game multiple times to see all the possible
+outcomes.
+
+### Gallery
+
+---
+template: "gallery"
+base: "GameDev/WBYH"
+images:
+  - file: "MainMenu.png"
+    caption: "An early main menu."
+  - file: "Scene.png"
+    caption: "A scene with Manitch and Ata."
+  - file: "AtaScene.png"
+    caption: "A scene with Ata."
+  - file: "End.png"
+    caption: "The end of the game."
+  - file: "AtaSprite.png"
+    caption: "One of Ata's sprites."
+  - file: "Error.png"
+    caption: "An error message."
+---
+
 ## Minesweeper
 
 ca. April 2024
@@ -70,6 +103,8 @@ images:
     caption: "Some runes lined up."
   - file: "Combo.jpg"
     caption: "A combo."
+  - file: "Settings.jpg"
+    caption: "The settings menu."
   - file: "Debug.jpg"
     caption: "The debug menu."
   - file: "Speech.jpg"
