@@ -8,6 +8,137 @@ A collection of old screenshots documenting my game development adventures.
 
 Names in quotes are placeholders or codenames.
 
+## Minesweeper
+
+ca. April 2024
+
+A simple clone of the classic game made using [nwge].
+
+### Gallery
+
+---
+template: "gallery"
+base: "GameDev/Minesweeper"
+images:
+  - file: "Win.jpg"
+    caption: "A victory."
+  - file: "Loss.jpg"
+    caption: "A loss."
+---
+
+## "Roulette"
+
+ca. April 2024
+
+A simple Russian Roulette game made using [nwge]. The primary premise of the
+game was talking with your opponent, Ata. The game delved into very dark topics,
+and took a very deep look into Ata's past and well as their pessimistic view
+of the world. Alike many other nwge games, this was never finished.
+
+### Gallery
+
+---
+template: "gallery"
+base: "GameDev/Roulette"
+images:
+  - file: "MissingTexture.jpg"
+    caption: "A placeholder texture."
+  - file: "Early.jpg"
+    caption: "Early in-game screenshot."
+---
+
+## "Runes"
+
+ca. February - March 2024
+
+A simple game made using [nwge]. The primary purpose of this game is to train
+hand-eye coordination with a graphics tablet by completing simple minigames with
+little runes. The game intended to feature [Manitch] as a main character, who
+would offer help for the player as well as sometimes telling stories about
+himself and the world he lives in.
+
+One of the tracks originally composed for this game was eventually used in
+[Shitting Bricks Simulator 2024].
+
+### Gallery
+
+---
+template: "gallery"
+base: "GameDev/Runes"
+images:
+  - file: "Runes.jpg"
+    caption: "Some runes lined up."
+  - file: "Combo.jpg"
+    caption: "A combo."
+  - file: "Debug.jpg"
+    caption: "The debug menu."
+  - file: "Speech.jpg"
+    caption: "Manitch speaking to the player."
+  - file: "Bug.jpg"
+    caption: "Buggy text rendering."
+---
+
+## TLX Engine
+
+ca. November 2023 - February 2024
+
+One of the very first [nwge]-based games. This was a very ambitious visual novel
+project.
+
+The main pattern invented here was a 3-layer structure. From highest to lowest
+level:
+
+* The game, contained entirely in a bundle file. Consisting of assets and
+  scripts.
+* The TLX Engine, written in C++ using nwge. This would handle all the
+  rendering, processing etc. This would also contain a game menu that'd allow
+  the user to select a game to play.
+* The nwge engine, that handles all the lowest level abstractions.
+
+That means that a TLX Engine game is just a bundle file that must be used with
+the TLX Engine executable to play.
+
+TLX Engine games were created using TLX Studio, which contained multiple editors
+for various aspects of the game, such as a sprite sheet editor or a pose editor.
+
+The primary game that the TLX Engine was designed for, and named after, was
+"The Torlaxse Tower". The game would follow the story of Imme and Milian, two
+anthropomorphic cats, who would try to break into the Torlaxse Tower to try and
+discover the secrets of Pharosium. As with many other big projects like this, it
+never got finished.
+
+---
+template: "gallery"
+base: "GameDev/TLX"
+images:
+  - file: "DesignDoc1.jpg"
+    caption: "The title of the design document of The Torlaxse Tower."
+  - file: "DesignDoc2.jpg"
+    caption: "Design document excerpt describing a scientist character."
+  - file: "DesignDoc3.jpg"
+    caption: "Design document excerpt describing a scene in the game."
+  - file: "DesignDoc4.jpg"
+    caption: "Design document excerpt describing the TLX Engine CLI."
+  - file: "DesignDoc5.jpg"
+    caption: "Design document excerpt featuring bad words!!!"
+  - file: "Imme.jpg"
+    caption: "An early sketch of Imme."
+  - file: "Milian.jpg"
+    caption: "An early sketch of Milian."
+  - file: "GameMenu.jpg"
+    caption: "TLX Engine game selection menu."
+  - file: "GameInfo.jpg"
+    caption: "Game information screen."
+  - file: "MainMenu.jpg"
+    caption: "Early main menu for The Torlaxse Tower."
+  - file: "Studio_Toolbar.jpg"
+    caption: "TLX Studio toolbar."
+  - file: "Studio_Project.jpg"
+    caption: "TLX Studio project management functionality."
+  - file: "Studio_Sprites.jpg"
+    caption: "TLX Studio sprite sheet editor."
+---
+
 ## The Ave Archipelago
 
 Codenamed "Island Game" or "IG".
@@ -301,3 +432,5 @@ images:
 [Haxe Flixel]: https://haxeflixel.com/
 [2Fort]: https://en.wikipedia.org/wiki/Team_Fortress_2
 [Team Fortress 2]: https://en.wikipedia.org/wiki/Team_Fortress_2
+[Manitch]: /character/Manitch
+[Shitting Bricks Simulator 2024]: /project/sbs2024
