@@ -26,6 +26,7 @@ was originally conceived by [qeaml].
 ## Trivia
 
 * He is a divorce lawyer.
+* He is an [actor].
 * He is in witness protection.
 * He [knows Gordon Freeman][Gordon].
 * He is a resident of South Dakota.
@@ -48,3 +49,4 @@ images:
 [Qeamlymomi]: https://x.com/Qeamlymomi
 [qeaml]: https://qeaml.github.io
 [Gordon]: /static/Img/Character/CrazyHorse/Gordon.jpg
+[actor]: https://www.youtube.com/watch?v=js3Q0QllYYQ
