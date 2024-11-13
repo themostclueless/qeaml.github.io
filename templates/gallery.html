@@ -1,0 +1,18 @@
+<p>Click to view full resolution.</p>
+
+<div class="gallery">
+
+% for img in images:
+  <figure class="gallery-elem">
+    <a href="/static/Img/${base}/${img['file']}">
+        <img
+            src="/static/Img/${base}/${img['file']}"
+            alt="${img['caption']}" />
+    </a>
+    <figcaption>
+        ${img['caption']}
+    </figcaption>
+  </figure>
+% endfor
+
+</div>
