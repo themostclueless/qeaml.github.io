@@ -463,7 +463,7 @@ images:
     https://steamcommunity.com/sharedfiles/filedetails/?id=2813176307
 [Godot]: https://godotengine.org/
 [FNAF]: https://en.wikipedia.org/wiki/Five_Nights_at_Freddy%27s
-[Clickteam Fusion]: https://www.clickteam.com/clickteam-fusion
+[Clickteam Fusion]: https://www.clickteam.com/clickteam-fusion-2-5
 [Haxe Flixel]: https://haxeflixel.com/
 [2Fort]: https://en.wikipedia.org/wiki/Team_Fortress_2
 [Team Fortress 2]: https://en.wikipedia.org/wiki/Team_Fortress_2
