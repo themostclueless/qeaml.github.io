@@ -25,28 +25,8 @@ hips are unnaturally wide. She is 165cm tall (5'5").
 
 ### Multiplayer
 
-In multiplayer versions of the game Gar 28, each player is assigned a
-semi-randomly selected skin. Each skin is a variation of Gar's design.
+See [Gar28 Skins].
 
----
-template: "ChEn/gallery"
-char: "Gar28"
-images:
-  - file: "garscarada.png"
-    caption: "Garscarada, drawn by clueless"
-  - file: "garxen.png"
-    caption: "Garxen, drawn by qeaml"
-  - file: "gar kerman.png"
-    caption: "Gar Kerman, drawn by domi9"
-  - file: "bul-gar-ia.png"
-    caption: "Bul-Gar-ia, drawn by qeaml"
-  - file: "gartian.png"
-    caption: "Gartian, drawn by clueless"
-  - file: "gar64.png"
-    caption: "Gar64, drawn by clueless"
-  - file: "gell.png"
-    caption: "Gell, drawn by clueless"
----
 
 ## Trivia
 
@@ -76,3 +56,4 @@ images:
 * [Har28]
 
 [Har28]: /character/Har28
+[Gar28 Skins]: /character/Gar28Skins
