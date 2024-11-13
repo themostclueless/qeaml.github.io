@@ -197,6 +197,8 @@ images:
 
 ## "FPT"
 
+ca. June 2021
+
 FPT, or **F**irst **P**erson **T**est, is a small experiment to try and
 implement a first person movement system in [Godot]. It involves a player
 wander through a dark forest with a flashlight.
@@ -215,8 +217,87 @@ images:
     caption: "The forest."
 ---
 
+## Five Nights at 2Fort
+
+ca. January 2021 (Clickteam Fusion version), March 2021 (Haxe Flixel version)
+
+This is a [FNAF] fan-game made in [Clickteam Fusion] and later re-implemented in
+[Haxe Flixel]. It was a very simple clone of the original game, replacing Freddy
+Fazbear's Pizzeria with 2Fort and the animatronics with the Scout, Sniper,
+Engineer and Spy from [Team Fortress 2].
+
+The game was initially made in Clickteam Fusion, like the original game. I ended
+up trying to re-implement it in Haxe Flixel as a way to test-drive it.
+
+### Gallery
+
+---
+template: "gallery"
+base: "GameDev/FNA2F"
+images:
+  - file: "CF_Menu.png"
+    caption: "Early main menu with Clickteam Fusion's debugger visible."
+  - file: "CF_Office.png"
+    caption: "Early version of the office (Clickteam ver.)"
+  - file: "CF_NightInfo.png"
+    caption: "Night UI (Clickteam ver.)"
+  - file: "CF_Camera.png"
+    caption: "The camera UI (Clickteam ver.)"
+  - file: "CF_Map.png"
+    caption: "The map (Clickteam ver.)"
+  - file: "Haxe_Menu.jpg"
+    caption: "Early main menu (Haxe ver.)"
+  - file: "Haxe_NightInfo.png"
+    caption: "Night UI (Haxe ver.)"
+  - file: "Haxe_Debug.png"
+    caption: "AI Debug UI (Haxe ver.)"
+  - file: "Haxe_Office.jpg"
+    caption: "The office (Haxe ver.)"
+  - file: "BTS1.png"
+    caption: "SFM screenshot of one of the camera angles."
+  - file: "BTS2.png"
+    caption: "SFM screenshot of the office turn animation."
+  - file: "BTS3.png"
+    caption: "SFM screenshot of 3 Spies behind the player."
+  - file: "TeaserOutside.png"
+    caption: "A teaser image."
+---
+
+## Awdawd
+
+ca. November 2019
+
+This is one of the first games I ever made. It was made in [Clickteam Fusion]
+and is a simple top-down shooter.
+
+The game went through a few versions, ultimately stagnating on v0.5. This is the
+first game I would compose a soundtrack for, even if it wasn't very good.
+
+### Gallery
+
+---
+template: "gallery"
+base: "GameDev/Awdawd"
+images:
+  - file: "Menu.png"
+    caption: "The main menu."
+  - file: "Tutorial.png"
+    caption: "A tutorial."
+  - file: "Loading.png"
+    caption: "The loading screen."
+  - file: "HUD.png"
+    caption: "The in-game HUD."
+  - file: "Death.png"
+    caption: "The death screen."
+---
+
 [nwge]: /project/nwge
 [WASM-4]: https://wasm4.org/
 [LIDAR Garry's Mod addon]:
     https://steamcommunity.com/sharedfiles/filedetails/?id=2813176307
 [Godot]: https://godotengine.org/
+[FNAF]: https://en.wikipedia.org/wiki/Five_Nights_at_Freddy%27s
+[Clickteam Fusion]: https://www.clickteam.com/clickteam-fusion
+[Haxe Flixel]: https://haxeflixel.com/
+[2Fort]: https://en.wikipedia.org/wiki/Team_Fortress_2
+[Team Fortress 2]: https://en.wikipedia.org/wiki/Team_Fortress_2
