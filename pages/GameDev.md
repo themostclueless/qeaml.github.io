@@ -107,10 +107,18 @@ images:
     caption: "The settings menu."
   - file: "Debug.jpg"
     caption: "The debug menu."
+  - video: "Debug.mp4"
+    caption: "(Video) The debug menu."
   - file: "Speech.jpg"
     caption: "Manitch speaking to the player."
   - file: "Bug.jpg"
     caption: "Buggy text rendering."
+  - video: "Intro.mp4"
+    caption: "(Video) The intro sequence."
+  - video: "Timescale.mp4"
+    caption: "(Video) Messing with the timescale."
+  - video: "Memory.mp4"
+    caption: "(Video) A memory corruption glitch."
 ---
 
 ## TLX Engine
@@ -172,6 +180,10 @@ images:
     caption: "TLX Studio project management functionality."
   - file: "Studio_Sprites.jpg"
     caption: "TLX Studio sprite sheet editor."
+  - video: "Studio_Help.mp4"
+    caption: "(Video) TLX Studio help system."
+  - video: "Studio_Sprites.mp4"
+    caption: "(Video) Working with sprite sheets in TLX Studio."
 ---
 
 ## The Ave Archipelago
@@ -413,6 +425,8 @@ images:
     caption: "Early main menu with Clickteam Fusion's debugger visible."
   - file: "CF_Office.png"
     caption: "Early version of the office (Clickteam ver.)"
+  - video: "CF_TurnAround.mp4"
+    caption: "(Video) Turn around animation (Clickteam ver.)"
   - file: "CF_NightInfo.png"
     caption: "Night UI (Clickteam ver.)"
   - file: "CF_Camera.png"
@@ -463,6 +477,10 @@ images:
     caption: "The in-game HUD."
   - file: "Death.png"
     caption: "The death screen."
+  - video: "Gameplay1.mp4"
+    caption: "(Video) Gameplay."
+  - video: "Gameplay2.mp4"
+    caption: "(Video) Gameplay."
 ---
 
 [nwge]: /project/nwge

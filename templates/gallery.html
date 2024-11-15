@@ -4,11 +4,19 @@
 
 % for img in images:
   <figure class="gallery-elem">
-    <a href="/static/Img/${base}/${img['file']}">
-        <img
-            src="/static/Img/${base}/${img['file']}"
-            alt="${img['caption']}" />
-    </a>
+    % if 'video' in img:
+        <a href="/static/Img/${base}/${img['video']}">
+            <img
+                src="/static/Img/${base}/${img['video']}.jpg"
+                alt="Thumbnail" />
+        </a>
+    % else:
+        <a href="/static/Img/${base}/${img['file']}">
+            <img
+                src="/static/Img/${base}/${img['file']}"
+                alt="${img['caption']}" />
+        </a>
+    % endif
     <figcaption>
         ${img['caption']}
     </figcaption>
