@@ -8,16 +8,23 @@ keywords: [Character]
 
 Below is a list of all current Character Encyclopedia (ChEn) entries:
 
+## General
+
 * [Ana Smirna]
+* [Crazy Horse]
+
+## Shitting Bricks Simulator 2024
+
 * [Butt McCrack]
 * The [Cool Evil Wizard]
-* [Crazy Horse]
+
+## Gar28
+
 * [Domi Kermoid]
 * [Gar27]
 * [Gar28]
 * [Har28]
 * [Kurt McDoubleburger]
-* [Manitch]
 
 [Ana Smirna]: /character/AnaSmirna
 [Butt McCrack]: /character/ButtMcCrack
@@ -28,4 +35,3 @@ Below is a list of all current Character Encyclopedia (ChEn) entries:
 [Gar28]: /character/Gar28
 [Har28]: /character/Har28
 [Kurt McDoubleburger]: /character/KurtMcDoubleburger
-[Manitch]: /character/Manitch
