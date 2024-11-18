@@ -64,6 +64,12 @@ After beating the game for the first time, a new item will appear in the store:
 
 * **Inhaler** (40 points), which removes the penalty for running out of oxygen.
 
+The game features 2 characters:
+
+* [Butt McCrack], the protagonist of the game.
+* The [Cool Evil Wizard], the antagonist. He is never seen in the game, only
+  mentioned in an e-mail viewable from the Extras menu after beating the game.
+
 The initial release of the game used nwge v0.11. The version of nwge would then
 be incremented with each update. For example, v1.3 used nwge v0.13. The final
 update, v1.5, broke this pattern by staying on nwge v0.14.
@@ -137,3 +143,5 @@ images:
 [nwge]: /project/nwge
 [SBS2022 project]: /project/sbs2022
 [SBS2024 project]: /project/sbs2024
+[Butt McCrack]: /character/ButtMcCrack
+[Cool Evil Wizard]: /character/CoolEvilWizard
