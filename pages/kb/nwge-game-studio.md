@@ -14,7 +14,7 @@ games created with the [nwge] engine. It is a subset of [Qeamlymomi Studios].
 
 ## Games
 
-* [Shitting Bricks Simulator 2024][sbs2024]
+* [Shitting Bricks Simulator] 2024
 
 ## Socials
 
@@ -34,7 +34,7 @@ games created with the [nwge] engine. It is a subset of [Qeamlymomi Studios].
 
 [nwge]: /project/nwge
 [Qeamlymomi Studios]: /kb/qeamlymomi-studios
-[sbs2024]: /project/sbs2024
+[Shitting Bricks Simulator]: /kb/shitting-bricks-simulator
 [X]: https://x.com/nwge_games
 [Discord]: https://discord.gg/y7GxumVE3G
 [qeaml]: /
