@@ -136,7 +136,7 @@ images:
 
 * [SBS2024 on itch.io](https://qeaml.itch.io/sbs2024)
 * [SBS2024 on GameJolt](https://gamejolt.com/games/sbs2024/918106)
-* [SBS2024 Source Code](https://github.com/qeaml/sbs2024) on GitHub
+* [SBS2024 Source Code](https://github.com/nwge-games/sbs2024) on GitHub
 
 [Nwge Game Studio]: /kb/nwge-game-studio
 [Godot]: https://godotengine.org/
