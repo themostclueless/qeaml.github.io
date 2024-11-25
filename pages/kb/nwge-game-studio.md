@@ -18,7 +18,8 @@ games created with the [nwge] engine. It is a subset of [Qeamlymomi Studios].
 
 ## Socials
 
-* [X]
+* [GitHub]
+* [BlueSky]
 * [Discord]
 
 ## Team
@@ -35,7 +36,8 @@ games created with the [nwge] engine. It is a subset of [Qeamlymomi Studios].
 [nwge]: /project/nwge
 [Qeamlymomi Studios]: /kb/qeamlymomi-studios
 [Shitting Bricks Simulator]: /kb/shitting-bricks-simulator
-[X]: https://x.com/nwge_games
+[GitHub]: https://github.com/nwge-games
+[BlueSky]: https://bsky.app/profile/nwge.bsky.social
 [Discord]: https://discord.gg/y7GxumVE3G
 [qeaml]: /
 [domi]: https://youtube.com/@domer_9
