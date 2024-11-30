@@ -1,9 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
-
 :root {
   background-color: black;
   color: white;
-  font-family: "Inter", sans-serif;
+  font-family: "InterVariable", sans-serif;
 
   --light-accent: #eeaaff;
   --accent: #8020ff;
@@ -61,6 +59,8 @@ em {
 
 h1 {
   margin-top: 0;
+  font-weight: 900;
+  font-family: 'Aspekta', sans-serif;
 }
 
 hr {
@@ -76,12 +76,19 @@ p {
   font-weight: 200;
 }
 
-h1,
 h2,
 h3,
-h4,
+h4 {
+  font-weight: 800;
+  font-family: 'Aspekta', sans-serif;
+}
+
 h5,
-h6,
+h6 {
+  font-weight: 600;
+  font-family: 'Aspekta', sans-serif;
+}
+
 b,
 strong,
 a {
