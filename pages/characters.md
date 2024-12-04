@@ -18,6 +18,13 @@ Below is a list of all current Character Encyclopedia (ChEn) entries:
 * [Butt McCrack]
 * The [Cool Evil Wizard]
 
+## Emesis Red/Purple
+
+* [Drug Dealer Officer Police]
+* [Géi]
+* [Speed Dealer Officer Police]
+* [Walter]
+
 ## Gar28
 
 * [Domi Kermoid]
@@ -30,8 +37,12 @@ Below is a list of all current Character Encyclopedia (ChEn) entries:
 [Butt McCrack]: /character/ButtMcCrack
 [Cool Evil Wizard]: /character/CoolEvilWizard
 [Crazy Horse]: /character/CrazyHorse
+[Drug Dealer Officer Police]: /character/DDOP
 [Domi Kermoid]: /character/DomiKermoid
 [Gar27]: /character/Gar27
 [Gar28]: /character/Gar28
+[Géi]: /character/Gei
 [Har28]: /character/Har28
 [Kurt McDoubleburger]: /character/KurtMcDoubleburger
+[Speed Dealer Officer Police]: /character/SDOP
+[Walter]: /character/Walter
