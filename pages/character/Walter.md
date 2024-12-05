@@ -27,7 +27,7 @@ this, Géi arrests him anyway.
 
 ## Appearance
 
-Walter takes the appearance of a RED Sniper wearing a Ghastly Gibus. He is
+Walter takes the appearance of a RED Sniper wearing a Ghostly Gibus. He is
 played by [domi9].
 
 ## See Also
