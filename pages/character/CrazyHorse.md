@@ -27,6 +27,8 @@ was originally conceived by [qeaml].
 
 * He is a divorce lawyer.
 * He is an [actor].
+* He is a [boxer].
+* He is a [traitor]
 * He is in witness protection.
 * He [knows Gordon Freeman][Gordon].
 * He is a resident of South Dakota.
@@ -50,3 +52,5 @@ images:
 [qeaml]: https://qeaml.github.io
 [Gordon]: /static/Img/Character/CrazyHorse/Gordon.jpg
 [actor]: https://www.youtube.com/watch?v=js3Q0QllYYQ
+[boxer]: https://en.wikipedia.org/wiki/Organized_horse_fighting
+[traitor]: https://en.wikipedia.org/wiki/Trojan_Horse
