@@ -1,13 +1,16 @@
 #!/usr/bin/env python3
 
 from dataclasses import dataclass
-from mako.template import Template
-from mako.lookup import TemplateLookup
-from markdown import Markdown
+from datetime import datetime
 from pathlib import Path
-from shutil import copytree
-from typing import Optional
+from shutil import copyfile, copytree
+
 import yaml
+from mako.lookup import TemplateLookup
+from mako.template import Template
+from markdown import Markdown
+
+from sitemap import Sitemap
 
 
 @dataclass
@@ -192,11 +195,17 @@ def main(args: list[str]) -> int:
     config = Config(
         Path("pages"), Path("out"), [], Path("static"), "https://qeaml.github.io"
     )
+    sitemap = Sitemap()
     pairs = find_all_pages(config, config.src)
     for pair in pairs:
         page = Page.parse(config, pair.src, pair.dst)
         page.render()
+        stat = pair.src.stat()
+        lastmod = datetime.fromtimestamp(stat.st_mtime)
+        sitemap.add(config.base_url + "/" + page.path, lastmod=lastmod)
 
+    sitemap.write(config.out / "sitemap.xml")
+    copyfile("robots.txt", config.out / "robots.txt")
     copytree(config.static, config.out / "static", dirs_exist_ok=True)
     return 0
 
