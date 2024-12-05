@@ -34,7 +34,7 @@ the chasm, Géi appeared behind him and finally killed him once and for all.
 ## Appearance
 
 Drug Dealer Officer Police takes the appearance of a BLU Engineer wearing a
-Ghastly Gibus. He is played by [domi9].
+Ghostly Gibus. He is played by [domi9].
 
 ## See Also
 
