@@ -8,13 +8,23 @@
         <a href="/static/Img/${base}/${img['video']}">
             <img
                 src="/static/Img/${base}/${img['video']}.jpg"
-                alt="Thumbnail" />
+                % if 'alt' in img:
+                    alt="${img['alt']}"
+                % else:
+                    alt="Video Thumbnail"
+                %endif
+            />
         </a>
     % else:
         <a href="/static/Img/${base}/${img['file']}">
             <img
                 src="/static/Img/${base}/${img['file']}"
-                alt="${img['caption']}" />
+                % if 'alt' in img:
+                    alt="${img['alt']}"
+                % else:
+                    alt="${img['caption']}"
+                %endif
+            />
         </a>
     % endif
     <figcaption>

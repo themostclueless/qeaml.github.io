@@ -60,6 +60,7 @@ class Page:
     desc: str
     thumb: str
     keywords: list[str]
+    extra_meta: dict
     content: str
     dst: Path
 
@@ -113,6 +114,7 @@ class Page:
         thumb = "/static/logo-small.png"
         keywords = []
         keywords.extend(config.base_keywords)
+        extra_meta = {}
 
         meta_block = None
         if (not blocks[0].is_text) and blocks[0].metadata is not None:
@@ -129,6 +131,8 @@ class Page:
                 thumb = meta["thumb"]
             if "keywords" in meta:
                 keywords.extend(meta["keywords"])
+            if "meta" in meta:
+                extra_meta |= meta["extra_meta"]
 
         if meta_block is not None:
             title_block = PageBlock(
@@ -148,7 +152,7 @@ class Page:
         content = markdown.convert(raw_content)
         # with dst.with_suffix(".tmp.md").open("wt") as f:
         #     f.write(raw_content)
-        return cls(config, path, title, section, desc, thumb, keywords, content, dst)
+        return cls(config, path, title, section, desc, thumb, keywords, extra_meta, content, dst)
 
     def render(self):
         self.dst.parent.mkdir(parents=True, exist_ok=True)
@@ -163,6 +167,7 @@ class Page:
                     desc=self.desc,
                     thumb=self.thumb,
                     keywords=self.keywords,
+                    extra_meta=self.extra_meta,
                     fullURL=f"{self.config.base_url}/{self.path}",
                 )
             )
@@ -200,13 +205,19 @@ def main(args: list[str]) -> int:
     for pair in pairs:
         page = Page.parse(config, pair.src, pair.dst)
         page.render()
-        stat = pair.src.stat()
-        lastmod = datetime.fromtimestamp(stat.st_mtime)
-        sitemap.add(config.base_url + "/" + page.path, lastmod=lastmod)
+        sitemap.add(config.base_url + "/" + page.path)
 
     sitemap.write(config.out / "sitemap.xml")
-    copyfile("robots.txt", config.out / "robots.txt")
     copytree(config.static, config.out / "static", dirs_exist_ok=True)
+
+    root = Path("root")
+    for file in root.iterdir():
+        if file.is_dir():
+            continue
+        if file.name.startswith("."):
+            continue
+        copyfile(file, config.out / file.relative_to(root))
+
     return 0
 
 
