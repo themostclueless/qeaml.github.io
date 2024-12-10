@@ -14,6 +14,10 @@ class RequestHandler(http.server.BaseHTTPRequestHandler):
             path = path.joinpath("index.html")
         if path.suffix == "":
             path = path.with_suffix(".html")
+        if not path.exists():
+            self.send_response(400)
+            self.wfile.write("Not Found")
+            return
         with path.open("rb") as f:
             self.send_response(200)
             self.send_header("Content-type", mimetypes.guess_type(path)[0])
