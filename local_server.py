@@ -15,8 +15,9 @@ class RequestHandler(http.server.BaseHTTPRequestHandler):
         if path.suffix == "":
             path = path.with_suffix(".html")
         if not path.exists():
-            self.send_response(400)
-            self.wfile.write("Not Found")
+            self.send_response(404)
+            self.end_headers()
+            self.wfile.write(b"Not Found")
             return
         with path.open("rb") as f:
             self.send_response(200)
