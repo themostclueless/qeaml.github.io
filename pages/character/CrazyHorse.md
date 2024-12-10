@@ -23,6 +23,27 @@ Horse, is a horse known for his demented mental state.
 The Crazy Horse is an inside joke of the [Qeamlymomi] crew. Specifically, he
 was originally conceived by [qeaml].
 
+## Discography
+
+### Kill Yousef
+
+* "I Was Crazy Once" (1987) - Tracks 9, 10, 11 are lost.
+* "World" (1989)
+* "The Free Man" (1993)
+* "World II" (1995)
+* "Horsin' Around" (1996)
+* "WPP" (1997)
+
+### Weird Horse
+
+* "World III" (2001)
+* "Kitsch" (2007)
+
+### The Crazy Horse
+
+* "For My Sons" and "For My Daughters" (both released in 2007)
+* "I Rest" (2017)
+
 ## Trivia
 
 * He is a divorce lawyer.
