@@ -10,8 +10,8 @@ Below is a list of all current Character Encyclopedia (ChEn) entries:
 
 ## General
 
-* [Ana Smirna]
 * [Crazy Horse]
+* [Elko Holić]
 
 ## Shitting Bricks Simulator 2024
 
@@ -39,6 +39,7 @@ Below is a list of all current Character Encyclopedia (ChEn) entries:
 [Crazy Horse]: /character/CrazyHorse
 [Drug Dealer Officer Police]: /character/DDOP
 [Domi Kermoid]: /character/DomiKermoid
+[Elko Holić]: /character/ElkoHolic
 [Gar27]: /character/Gar27
 [Gar28]: /character/Gar28
 [Géi]: /character/Gei
