@@ -12,6 +12,7 @@ Below is a list of all current Character Encyclopedia (ChEn) entries:
 
 * [Crazy Horse]
 * [Elko Holić]
+* [Mykál Umeg]
 
 ## Shitting Bricks Simulator 2024
 
@@ -45,5 +46,6 @@ Below is a list of all current Character Encyclopedia (ChEn) entries:
 [Géi]: /character/Gei
 [Har28]: /character/Har28
 [Kurt McDoubleburger]: /character/KurtMcDoubleburger
+[Mykál Umeg]: /character/MykalUmeg
 [Speed Dealer Officer Police]: /character/SDOP
 [Walter]: /character/Walter

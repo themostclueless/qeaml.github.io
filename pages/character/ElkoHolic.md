@@ -29,7 +29,7 @@ serving in the military, due to various bureaucratic issues.
 
 ## Service in Umeg Campaign
 
-He was part of the Umeg Campaign formed after Mýkal Umeg's death. Documentation
+He was part of the Umeg Campaign formed after [Mykál Umeg]'s death. Documentation
 later revealed he was one of the first people to be recruited for the Southern
 Group. At first, he was a regular troop of the 1st division, but would become
 the technological assistant by 1969. In 1971 he would become the "right-hand" of
@@ -48,3 +48,5 @@ translation of the Flamian phrase "Nik vel bet, zut.").
 
 His death would be commemorated by Juljan Sóbaj, who granted him a posthumous
 Order of Sejus (Sezúsné Ord) on August 1st, 1975.
+
+[Mykál Umeg]: /character/MykalUmeg
