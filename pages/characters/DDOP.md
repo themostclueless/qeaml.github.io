@@ -41,6 +41,6 @@ Ghostly Gibus. He is played by [domi9].
 * [Géi]
 * [Speed Dealer Officer Police]
 
-[Géi]: /character/Gei
-[Speed Dealer Officer Police]: /character/SDOP
+[Géi]: /characters/Gei
+[Speed Dealer Officer Police]: /characters/SDOP
 [domi9]: https://www.youtube.com/@domer_9

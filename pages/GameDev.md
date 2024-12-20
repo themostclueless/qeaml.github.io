@@ -14,7 +14,7 @@ ca. June 2024
 
 WBYH, or **W**hat **B**rings **Y**ou **H**ere, is a game similar in purpose to
 the roulette game described below, also based on [nwge]. This game, however,
-simply focused on [Manitch], the player character, having a conversation with
+simply focused on Manitch, the player character, having a conversation with
 Ata. The game would focus long dialogues between the two, with the player
 character having to choose between different conversation topics every so often.
 Every choice would lead the player to a different path in the conversation,
@@ -86,7 +86,7 @@ ca. February - March 2024
 
 A simple game made using [nwge]. The primary purpose of this game is to train
 hand-eye coordination with a graphics tablet by completing simple minigames with
-little runes. The game intended to feature [Manitch] as a main character, who
+little runes. The game intended to feature Manitch as a main character, who
 would offer help for the player as well as sometimes telling stories about
 himself and the world he lives in.
 
@@ -483,7 +483,7 @@ images:
     caption: "(Video) Gameplay."
 ---
 
-[nwge]: /project/nwge
+[nwge]: /projects/nwge
 [WASM-4]: https://wasm4.org/
 [LIDAR Garry's Mod addon]:
     https://steamcommunity.com/sharedfiles/filedetails/?id=2813176307
@@ -493,5 +493,4 @@ images:
 [Haxe Flixel]: https://haxeflixel.com/
 [2Fort]: https://en.wikipedia.org/wiki/Team_Fortress_2
 [Team Fortress 2]: https://en.wikipedia.org/wiki/Team_Fortress_2
-[Manitch]: /character/Manitch
-[Shitting Bricks Simulator 2024]: /project/sbs2024
+[Shitting Bricks Simulator 2024]: /projects/sbs2024

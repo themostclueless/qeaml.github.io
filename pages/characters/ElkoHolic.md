@@ -49,4 +49,4 @@ translation of the Flamian phrase "Nik vel bet, zut.").
 His death would be commemorated by Juljan Sóbaj, who granted him a posthumous
 Order of Sejus (Sezúsné Ord) on August 1st, 1975.
 
-[Mykál Umeg]: /character/MykalUmeg
+[Mykál Umeg]: /characters/MykalUmeg

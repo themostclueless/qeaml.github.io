@@ -46,5 +46,5 @@ images:
 
 * [Gar28]
 
-[Gar28]: /character/Gar28
+[Gar28]: /characters/Gar28
 [domi9]: https://www.youtube.com/@domer_9

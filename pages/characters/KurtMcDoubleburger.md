@@ -64,5 +64,5 @@ images:
 [qeaml]: /
 [cat photo]: /static/Img/Character/KurtMcDoubleburger/Kitty.jpg
 [Twitter]: https://twitter.com/qeamlbackup
-[Gar28]: /character/Gar28
-[Har28]: /character/Har28
+[Gar28]: /characters/Gar28
+[Har28]: /characters/Har28

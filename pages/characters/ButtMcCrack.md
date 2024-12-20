@@ -49,7 +49,7 @@ She takes the appearance of the infamous [`male_07`][male_07] model from
 
 [Shitting Bricks Simulator 2024]: /kb/shitting-bricks-simulator
 [e-mail]: /static/Img/SBS2024_e-mail.jpg
-[Cool Evil Wizard]: /character/CoolEvilWizard
+[Cool Evil Wizard]: /characters/CoolEvilWizard
 [male_07]: https://knowyourmeme.com/memes/male-07
 [Half-Life 2]: https://store.steampowered.com/app/220/HalfLife_2
 [ProtonMail]: https://proton.me

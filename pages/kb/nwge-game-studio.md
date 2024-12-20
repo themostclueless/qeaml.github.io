@@ -33,7 +33,7 @@ games created with the [nwge] engine. It is a subset of [Qeamlymomi Studios].
 * [Nwge Documentation](/nwge-docs)
 * [Qeamlymomi Studios]
 
-[nwge]: /project/nwge
+[nwge]: /projects/nwge
 [Qeamlymomi Studios]: /kb/qeamlymomi-studios
 [Shitting Bricks Simulator]: /kb/shitting-bricks-simulator
 [GitHub]: https://github.com/nwge-games

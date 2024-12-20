@@ -44,5 +44,5 @@ images:
 * [Gar28]
 * [Kurt McDoubleburger]
 
-[Gar28]: /character/Gar28
-[Kurt McDoubleburger]: /character/KurtMcDoubleburger
+[Gar28]: /characters/Gar28
+[Kurt McDoubleburger]: /characters/KurtMcDoubleburger

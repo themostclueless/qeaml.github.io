@@ -41,4 +41,4 @@ content:
 
 [Shitting Bricks Simulator 2024]: /kb/shitting-bricks-simulator
 [e-mail]: /static/Img/SBS2024_e-mail.jpg
-[Butt McCrack]: /character/ButtMcCrack
+[Butt McCrack]: /characters/ButtMcCrack

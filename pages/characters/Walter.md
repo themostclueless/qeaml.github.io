@@ -34,5 +34,5 @@ played by [domi9].
 
 * [Géi]
 
-[Géi]: /character/Gei
+[Géi]: /characters/Gei
 [domi9]: https://www.youtube.com/@domer_9

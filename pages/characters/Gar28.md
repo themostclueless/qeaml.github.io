@@ -55,5 +55,5 @@ images:
 
 * [Har28]
 
-[Har28]: /character/Har28
-[Gar28 Skins]: /character/Gar28Skins
+[Har28]: /characters/Har28
+[Gar28 Skins]: /characters/Gar28Skins

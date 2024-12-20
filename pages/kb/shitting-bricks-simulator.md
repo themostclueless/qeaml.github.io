@@ -140,8 +140,8 @@ images:
 
 [Nwge Game Studio]: /kb/nwge-game-studio
 [Godot]: https://godotengine.org/
-[nwge]: /project/nwge
-[SBS2022 project]: /project/sbs2022
-[SBS2024 project]: /project/sbs2024
-[Butt McCrack]: /character/ButtMcCrack
-[Cool Evil Wizard]: /character/CoolEvilWizard
+[nwge]: /projects/nwge
+[SBS2022 project]: /projects/sbs2022
+[SBS2024 project]: /projects/sbs2024
+[Butt McCrack]: /characters/ButtMcCrack
+[Cool Evil Wizard]: /characters/CoolEvilWizard

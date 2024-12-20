@@ -41,6 +41,6 @@ SDOP takes the appearance of a RED Soldier. He is played by [qeaml].
 * [Géi]
 * [Drug Dealer Officer Police]
 
-[Géi]: /character/Gei
-[Drug Dealer Officer Police]: /character/DDOP
+[Géi]: /characters/Gei
+[Drug Dealer Officer Police]: /characters/DDOP
 [qeaml]: /

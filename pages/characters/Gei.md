@@ -53,7 +53,7 @@ Kujo. His is played by [clueless].
 * [Drug Dealer Officer Police]
 * [Walter]
 
-[Speed Dealer Officer Police]: /character/SDOP
-[Drug Dealer Officer Police]: /character/DDOP
-[Walter]: /character/Walter
+[Speed Dealer Officer Police]: /characters/SDOP
+[Drug Dealer Officer Police]: /characters/DDOP
+[Walter]: /characters/Walter
 [clueless]: https://x.com/themostclueless

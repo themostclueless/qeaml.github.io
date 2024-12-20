@@ -9,11 +9,11 @@ website:
 
 ## Active
 
-* [nwge](/project/nwge)
-* [Shitting Bricks Simulator 2024](/project/sbs2024)
-* [bip](/project/bip)
+* [nwge](/projects/nwge)
+* [Shitting Bricks Simulator 2024](/projects/sbs2024)
+* [bip](/projects/bip)
 
 ## Inactive
 
-* [skol](/project/skol)
-* [Shitting Bricks Simulator 2022](/project/sbs2022)
+* [skol](/projects/skol)
+* [Shitting Bricks Simulator 2022](/projects/sbs2022)
