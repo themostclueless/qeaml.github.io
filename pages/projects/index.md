@@ -10,10 +10,10 @@ website:
 ## Active
 
 * [nwge](/projects/nwge)
-* [Shitting Bricks Simulator 2024](/projects/sbs2024)
 * [bip](/projects/bip)
 
 ## Inactive
 
 * [skol](/projects/skol)
 * [Shitting Bricks Simulator 2022](/projects/sbs2022)
+* [Shitting Bricks Simulator 2024](/projects/sbs2024)

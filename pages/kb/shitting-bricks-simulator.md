@@ -42,6 +42,9 @@ images:
 **SBS2024** is the latest installment from the series. It is developed using
 [nwge].
 
+> SBS2024 is no longer playable starting January 1st, 2025. Thank you for
+> playing!
+
 The gameplay is similar to that of SBS2022. The player may click anywhere on the
 screen to push the brick. Alike the original, the more effort is put in, the
 more oxygen is used. Once the player manages to push the brick out, they gain 1
@@ -123,6 +126,9 @@ images:
 </tr>
 <tr>
   <td>5th November 2024</td> <td>SBS2024 v1.5 released (The Final Update)</td>
+</tr>
+<tr>
+  <td>1st January 2025</td> <td>SBS2024 is no longer playable</td>
 </tr>
 </table>
 
