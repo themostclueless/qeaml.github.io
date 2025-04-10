@@ -52,6 +52,7 @@ was originally conceived by [qeaml].
 * He [knows Gordon Freeman][Gordon].
 * He is a resident of South Dakota.
 * The saying "Healthy like a horse" actually comes from Crazy Horse, who is known to be in good health, outside of his mental condition.
+* No relation to [Crazy Horse][CrazyHorse]
 
 ## Gallery
 
@@ -71,3 +72,4 @@ images:
 [qeaml]: https://qeaml.github.io
 [Gordon]: /static/Img/Character/CrazyHorse/Gordon.jpg
 [actor]: https://www.youtube.com/watch?v=js3Q0QllYYQ
+[CrazyHorse]: https://en.wikipedia.org/wiki/Crazy_Horse
