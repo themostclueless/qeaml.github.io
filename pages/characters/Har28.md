@@ -1,5 +1,5 @@
 ---
-title: "Har28"
+title: "Har 28"
 in: "Character Encyclopedia"
 desc:
     "Har is a minor character in the game Gar28."
@@ -26,6 +26,7 @@ Har is an anthropomorphic siamese cat. He has blue eyes with thin pupils. He is
 ## Trivia
 
 * He loves eating dried seaweed.
+* He owns a hardware store.
 
 ## Gallery
 
@@ -41,8 +42,8 @@ images:
 
 ## See Also
 
-* [Gar28]
+* [Gar 28]
 * [Kurt McDoubleburger]
 
-[Gar28]: /characters/Gar28
+[Gar 28]: /characters/Gar28
 [Kurt McDoubleburger]: /characters/KurtMcDoubleburger
