@@ -2,6 +2,7 @@
   background-color: black;
   color: white;
   font-family: "InterVariable", sans-serif;
+  font-weight: 400;
 
   --light-accent: #eeaaff;
   --accent: #8020ff;
@@ -73,7 +74,6 @@ code {
 
 p {
   text-align: justify;
-  font-weight: 400;
 }
 
 h2,
@@ -93,10 +93,6 @@ b,
 strong,
 a {
   font-weight: 600;
-}
-
-li {
-  font-weight: 200;
 }
 
 .char-portrait {
