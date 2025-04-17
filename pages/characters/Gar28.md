@@ -1,5 +1,5 @@
 ---
-title: "Gar28"
+title: "Gar 28"
 in: "Character Encyclopedia"
 desc:
     "Gar is the protagonist and player character of the game Gar28."
@@ -25,13 +25,14 @@ hips are unnaturally wide. She is 165cm tall (5'5").
 
 ### Multiplayer
 
-See [Gar28 Skins].
+See [Gar 28 Skins].
 
 
 ## Trivia
 
 * Pressing <kbd>M</kbd> while in-game will make her meow.
 * She was originally designed for Daily Kitty 145.
+* Her birthday is April 14th.
 
 ## Gallery
 
@@ -53,7 +54,7 @@ images:
 
 ## See Also
 
-* [Har28]
+* [Har 28]
 
-[Har28]: /characters/Har28
-[Gar28 Skins]: /characters/Gar28Skins
+[Har 28]: /characters/Har28
+[Gar 28 Skins]: /characters/Gar28Skins
