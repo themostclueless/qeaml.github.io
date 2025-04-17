@@ -10,15 +10,14 @@ There are many characters that appear in the game Gar28. Some have their own
 pages in the [Character Encyclopedia][ChEn]. Although all characters in the game
 are listed, not all of them have pages in the ChEn.
 
-* [Gar28]
+* [Gar 28]
 * Nil
-* [Gar27]
 
 ## Otherplace
 
 Characters found in the **Otherplace** area of the game.
 
-* [Har28]
+* [Har 28]
 * [Kurt McDoubleburger]
 * [Domi Kermoid]
 * Joe
@@ -41,8 +40,7 @@ Characters found in the **Perc City** area of the game.
 * CEO
 
 [ChEn]: /characters
-[Gar28]: /characters/Gar28
-[Gar27]: /characters/Gar27
-[Har28]: /characters/Har28
+[Gar 28]: /characters/Gar28
+[Har 28]: /characters/Har28
 [Kurt McDoubleBurger]: /characters/KurtMcDoubleburger
 [Domi Kermoid]: /characters/DomiKermoid

@@ -29,9 +29,10 @@ def main(args: list[str]) -> int:
     server_address = ('', 9060)
     httpd = http.server.HTTPServer(server_address, RequestHandler)
     try:
+        print("Running on http://localhost:9060")
         httpd.serve_forever()
     except KeyboardInterrupt:
-        print()
+        print("Goodbye\n")
         pass
     return 0
 

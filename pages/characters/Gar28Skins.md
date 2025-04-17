@@ -1,5 +1,5 @@
 ---
-title: "Gar28 Skins"
+title: "Gar 28 Skins"
 in: "Character Encyclopedia"
 desc:
     "Reskins of Gar28 available in the multiplayer versions of the game Gar28."
@@ -7,7 +7,7 @@ thumb: "/static/Img/Character/Gar28/garscarada.png"
 keywords: [Character, Cat, Gar28]
 ---
 
-In multiplayer versions of the game Gar 28, each player is assigned a
+In multiplayer versions of the game Gar28, each player is assigned a
 semi-randomly selected skin. Each skin is a variation of Gar's design.
 
 ---
