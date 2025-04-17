@@ -23,11 +23,6 @@ Characters found in the **Otherplace** area of the game.
 * Joe
 * Imme
 * Milian
-
-### Aztec
-
-Characters found in the Aztec area of Otherplace.
-
 * Skye
 
 ## Perc City

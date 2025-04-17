@@ -2,7 +2,7 @@
 title: "Gar 28 Skins"
 in: "Character Encyclopedia"
 desc:
-    "Reskins of Gar28 available in the multiplayer versions of the game Gar28."
+    "Reskins of Gar 28 available in the multiplayer versions of the game Gar28."
 thumb: "/static/Img/Character/Gar28/garscarada.png"
 keywords: [Character, Cat, Gar28]
 ---

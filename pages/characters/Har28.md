@@ -37,7 +37,7 @@ images:
   - file: "Shop.jpg"
     caption: "Har in his hardware store"
   - file: "har injury.png"
-    caption: "Har after sustaning an injury"
+    caption: "Har after sustaining an injury"
 ---
 
 ## See Also

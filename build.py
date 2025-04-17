@@ -127,6 +127,8 @@ class Page:
                 section = meta["in"]
             if "desc" in meta:
                 desc = meta["desc"]
+                if '"' in desc:
+                    desc = desc.replace('"', "&quot;")
             if "thumb" in meta:
                 thumb = meta["thumb"]
             if "keywords" in meta:
