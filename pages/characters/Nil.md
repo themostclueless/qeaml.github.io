@@ -25,6 +25,7 @@ Nils are white creatures with bear-like ears and black stripes on their back.
 * Nil is voiced by SAM (Software Automatic Mouth)
 * Nil was the first character to physically appear in the Gar28. Gar herself
   didn't have a sprite until a later alpha version.
+* There are a total of 9 Nils
 
 ## Gallery
 
@@ -39,7 +40,7 @@ images:
   - file: "Beach.webp"
     caption: "Nil at the beach"
   - file: "Dustbowl.webp"
-    caption: "Nil in one a house in Dustbowl"
+    caption: "Nil in one of the houses in Dustbowl"
   - file: "Dock.webp"
     caption: "Nil on the dock"
   - file: "Cliff.webp"
