@@ -3,14 +3,14 @@ title: "Har 28"
 in: "Character Encyclopedia"
 desc:
     "Har is a minor character in the game Gar28."
-thumb: "/static/Img/Character/Har28/Shop.jpg"
+thumb: "/static/Img/Character/Har28/Hardware.webp"
 keywords: [Character, Cat, Gar28]
 ---
 
 ---
 template: "ChEn/portrait"
 char: "Har28"
-file: "Shop.jpg"
+file: "Hardware.webp"
 charName: "Har"
 ---
 
@@ -26,7 +26,7 @@ Har is an anthropomorphic siamese cat. He has blue eyes with thin pupils. He is
 ## Trivia
 
 * He loves eating dried seaweed.
-* He owns a hardware store.
+* His birthday is May 21st.
 
 ## Gallery
 
@@ -34,10 +34,10 @@ Har is an anthropomorphic siamese cat. He has blue eyes with thin pupils. He is
 template: "ChEn/gallery"
 char: "Har28"
 images:
-  - file: "Shop.jpg"
+  - file: "Hardware.webp"
     caption: "Har in his hardware store"
-  - file: "har injury.png"
-    caption: "Har after sustaining an injury"
+  - file: "Room.webp"
+    caption: "Har in his room"
 ---
 
 ## See Also
