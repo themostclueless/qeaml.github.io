@@ -3,14 +3,14 @@ title: "Kurt McDoubleburger"
 in: "Character Encyclopedia"
 desc:
     "Kurt is a minor character appearing in the game Gar28."
-thumb: "/static/Img/Character/KurtMcDoubleburger/Portrait.jpg"
+thumb: "/static/Img/Character/KurtMcDoubleburger/Banner.webp"
 keywords: [Character, Cat, Gar28]
 ---
 
 ---
 template: "ChEn/portrait"
 char: "KurtMcDoubleburger"
-file: "Portrait.jpg"
+file: "Banner.webp"
 charName: "Kurt McDoubleburger"
 ---
 
@@ -48,8 +48,10 @@ shirt. His design is based on a [cat photo].
 template: "ChEn/gallery"
 char: "KurtMcDoubleburger"
 images:
-  - file: "Portrait.jpg"
+  - file: "Banner.webp"
     caption: "Kurt, as seen in the Perc Finance banner"
+  - file: "Nap.webp"
+    caption: "Kurt, asleep in the back of Har's store"
   - file: "Kitty.jpg"
     caption: "Cat photo used as base of Kurt's design"
   - file: "Kurtcopter.jpg"
