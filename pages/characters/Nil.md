@@ -18,12 +18,12 @@ Bip.
 
 ## Appearance
 
-Nils are white creatures with bear-like ears and black stripes on their back.
+Nils are white creatures with bear-like ears and black stripes on their backs.
 
 ## Trivia
 
 * Nil is voiced by SAM (Software Automatic Mouth)
-* Nil was the first character to physically appear in the Gar28. Gar herself
+* Nil was the first character to physically appear in Gar28. Gar herself
   didn't have a sprite until a later alpha version.
 * There are a total of 9 Nils
 
