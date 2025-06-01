@@ -1,7 +1,7 @@
 ---
 title: Nil
 in: Character Encyclopedia
-desc: Nil is a species in found in the game Gar28.
+desc: Nil is a species found in the game Gar28.
 thumb: /static/Img/Character/Nil/Stoneroute.webp
 keywords: [Character, Bear, Gar28]
 ---
