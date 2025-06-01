@@ -3,14 +3,14 @@ title: "Gar 28"
 in: "Character Encyclopedia"
 desc:
     "Gar is the protagonist and player character of the game Gar28."
-thumb: "/static/Img/Character/Gar28/Mirror.jpg"
+thumb: "/static/Img/Character/Gar28/Mirror.webp"
 keywords: [Character, Cat, Gar28]
 ---
 
 ---
 template: "ChEn/portrait"
 char: "Gar28"
-file: "Mirror.jpg"
+file: "Mirror.webp"
 charName: "Gar"
 ---
 
@@ -20,13 +20,12 @@ visible when looking in a mirror.
 
 ## Appearance
 
-Gar is an anthropomorphic siamese cat. She has white eyes with thin pupils. Her
+Gar is an anthropomorphic siamese cat. She has blue eyes with thin pupils. Her
 hips are wide. She is 165cm tall (5'5").
 
 ### Multiplayer
 
 See [Gar 28 Skins].
-
 
 ## Trivia
 
@@ -40,16 +39,16 @@ See [Gar 28 Skins].
 template: "ChEn/gallery"
 char: "Gar28"
 images:
-  - file: "Mirror.jpg"
+  - file: "Mirror.webp"
     caption: "Gar looking in the mirror"
-  - file: "PixelArt.jpg"
-    caption: "Pixel art of Gar (in the Creeper Mogging Society)"
+  - file: "InGame.webp"
+    caption: "Gar's full in-game sprite"
   - file: "Intro.jpg"
-    caption: "Gar as seen in the game intro"
-  - file: "Touch.png"
-    caption: "Gar making a respectful request"
-  - file: "troublemaker gar.avif"
-    caption: "Troublemaker Gar"
+    caption: "Gar as seen in the game intro (old design)"
+  - file: "OldGarLeyes.webp"
+    caption: "Gar (old design) with Leyes"
+  - file: "GradientGar.webp"
+    caption: "An alternate design of Gar featuring smooth color transitions"
 ---
 
 ## See Also
