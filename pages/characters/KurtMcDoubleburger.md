@@ -37,6 +37,7 @@ shirt. His design is based on a [cat photo].
 ## Trivia
 
 * He is divorced.
+* His birthday is June 1st.
 * He is homosexual.
 * The name Kurt McDoubleburger originates from [qeaml]'s Steam profile, where he
   used many similar names, such as Kurt McCrispybacon or Kurt McAutisticgamer.
