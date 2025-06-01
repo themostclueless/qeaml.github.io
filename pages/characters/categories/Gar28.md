@@ -11,7 +11,7 @@ pages in the [Character Encyclopedia][ChEn]. Although all characters in the game
 are listed, not all of them have pages in the ChEn.
 
 * [Gar 28]
-* Nil
+* [Nil]
 
 ## Otherplace
 
@@ -39,3 +39,4 @@ Characters found in the **Perc City** area of the game.
 [Har 28]: /characters/Har28
 [Kurt McDoubleBurger]: /characters/KurtMcDoubleburger
 [Domi Kermoid]: /characters/DomiKermoid
+[Nil]: /characters/Nil
