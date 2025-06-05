@@ -108,6 +108,7 @@ a {
   max-height: 10rem;
   margin: 0;
   padding: 0;
+  cursor: zoom-in;
 }
 
 .gallery {
@@ -129,6 +130,7 @@ a {
 .gallery-elem img {
   max-width: 9rem;
   max-height: 9rem;
+  cursor: zoom-in;
 }
 
 .figure-image {
