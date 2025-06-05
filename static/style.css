@@ -42,11 +42,8 @@ main {
 footer {
   padding-top: 1rem;
   text-align: center;
-  opacity: 10%;
-}
-
-footer:hover {
-  opacity: 25%;
+  font-size: 0.8rem;
+  opacity: 50%;
 }
 
 a {
