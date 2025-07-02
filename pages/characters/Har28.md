@@ -27,6 +27,7 @@ Har is an anthropomorphic siamese cat. He has blue eyes with thin pupils. He is
 
 * He loves eating dried seaweed.
 * His birthday is May 21st.
+* Har's name originally came from a [sarcastic laugh].
 
 ## Gallery
 
@@ -47,3 +48,4 @@ images:
 
 [Gar 28]: /characters/Gar28
 [Kurt McDoubleburger]: /characters/KurtMcDoubleburger
+[sarcastic laugh]: /static/Img/Character/Har28/harigin.webp
